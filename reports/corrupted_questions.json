@@ -1,0 +1,2895 @@
+{
+  "summary": {
+    "scanned": 945,
+    "flagged": 230,
+    "flagged_pct": 24.3,
+    "by_reason": {
+      "single_char_lines": 154,
+      "ocr_artifacts": 56,
+      "isolated_operators": 49,
+      "broken_choices": 35,
+      "excessive_line_breaks": 20,
+      "malformed_equation": 14,
+      "unusually_short": 1
+    },
+    "by_test": {
+      "test4": 10,
+      "test5": 17,
+      "test6": 33,
+      "test7": 42,
+      "test8": 25,
+      "test9": 31,
+      "test10": 35,
+      "test11": 37
+    },
+    "by_section": {
+      "reading": 58,
+      "math": 172
+    },
+    "by_question_type": {
+      "multiple_choice": 190,
+      "numeric_response": 40
+    }
+  },
+  "flagged": [
+    {
+      "question_id": "test4_rw_m1_q17",
+      "reason": "excessive_line_breaks (42 newlines)",
+      "reasons": [
+        "excessive_line_breaks"
+      ],
+      "test": 4,
+      "section": "reading",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "Effects of Mycorrhizal Fungi on 3 Plant Species\n\nAverage mass of plants \ngrown in soil containing \nmycorrhizal fungi \n(in grams)\n\nAverage mass of plants \ngrown in soil treated \nto kill fungi (in grams) \nCorn \nyes \n15.1 \n3.8 \nMarigold \nyes \n10.2 \n2.4 \nBroccoli \nno \n7.5 \n7\n\nPlant \nspecies\n\nMycorrhizal \nhost\n\nMycorrhizal fungi in soil benefits many plants, substantially increasing \nthe mass of some. A student conducted an experiment to illustrate this \neffect. The student chose three plant species for the experiment, \nincluding two that are mycorrhizal hosts (species known to benefit \nfrom mycorrhizal fungi) and one nonmycorrhizal species (a species \nthat doesn’t benefit from and may even be harmed by mycorrhizal \nfungi). The student then grew several plants from each species both in \nsoil containing mycorrhizal fungi and in soil that had been treated to \nkill mycorrhizal and other fungi. After several weeks, the student \nmeasured the plants’ average mass and was surprised to discover \nthat [BLANK]\n\nWhich choice most effectively uses data from the table to complete the \nstatement?"
+    },
+    {
+      "question_id": "test4_rw_m2_q13",
+      "reason": "excessive_line_breaks (49 newlines)",
+      "reasons": [
+        "excessive_line_breaks"
+      ],
+      "test": 4,
+      "section": "reading",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "Economic Policy Uncertainty in\nthe United Kingdom, 2005–2010\n\nUncertainty\n(larger values = more uncertainty)\n\n200\n\n150\n\n100\n\n50\n\n0\n\n2009\n\n2005\n\n2008\n\n2010\n\n2006\n\n2007\n\nYear\n\ntax and public spending policy\ntrade policy\ngeneral economic policy\n\nHigh levels of public uncertainty about which \neconomic policies a country will adopt can make \nplanning difficult for businesses, but measures of \nsuch uncertainty have not tended to be very detailed. \nRecently, however, economist Sandile Hlatshwayo \nanalyzed trends in news reports to derive measures \nnot only for general economic policy uncertainty but \nalso for uncertainty related to specific areas of \neconomic policy, like tax or trade policy. One \nrevelation of her work is that a general measure may \nnot fully reflect uncertainty about specific areas of \npolicy, as in the case of the United Kingdom, where \ngeneral economic policy uncertainty [BLANK]\n\nWhich choice most effectively uses data from the \ngraph to illustrate the claim?"
+    },
+    {
+      "question_id": "test4_math_m1_q8",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 4,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "x \nf(x)\n0\n 29\n \n1\n 32\n \n2\n 35\n\nFor the linear function f, the table shows three values \nof x and their corresponding values of f x\n( ). Which \nequation defines f x\n( ) ?"
+    },
+    {
+      "question_id": "test4_math_m1_q12",
+      "reason": "single_char_lines (6 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 4,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "16 \n14 \n12 \n1 \n8 \n6 \n4\n\n-1 \"\n\n2\n\nX\n\n0-=8~ -<:..4--=2_ f- ~2-4_6_8_10 \n14 \n\"\"'-..I /\n\nWhat is an equation of the graph shown?"
+    },
+    {
+      "question_id": "test4_math_m1_q14",
+      "reason": "isolated_operators (2 lines); single_char_lines (4 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 4,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "numeric_response",
+      "question": "24x\ny\n 48\n+\n= \n6 +\nx\ny = \n72\n\nThe solution to the given system of equations is \n(x, y). What is the value of y ?"
+    },
+    {
+      "question_id": "test4_math_m1_q19",
+      "reason": "broken_choices (garbled choice)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 4,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "14x = 2 w + 19 \n7y\n\nThe given equation relates the distinct positive real \nnumbers w, x, and y. Which equation correctly \nexpresses w in terms of x and y ?"
+    },
+    {
+      "question_id": "test4_math_m1_q21",
+      "reason": "single_char_lines (6 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 4,
+      "section": "math",
+      "topic": "exponents",
+      "question_type": "numeric_response",
+      "question": "The expression \n5\n5 45 \n6\n·\n 3 x \n8\n8 \n2 x is equivalent to \nb\nax ,\n\nwhere a and b are positive constants and x > 1.\n\nWhat is the value of a + b ?"
+    },
+    {
+      "question_id": "test4_math_m1_q26",
+      "reason": "isolated_operators (2 lines); single_char_lines (4 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 4,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "In the x y-plane, a parabola has vertex (9, −14) and\n\nintersects the x-axis at two points. If the equation of\n\nthe parabola is written in the form y = ax2 + bx + c,\n\nwhere a, b, and c are constants, which of the\n\nfollowing could be the value of a\nb\n+\nc\n+\n ?"
+    },
+    {
+      "question_id": "test4_math_m2_q4",
+      "reason": "isolated_operators (2 lines); single_char_lines (7 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 4,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "x\ny\n+\n= 18\ny\n5\n=\n x\n\nWhat is the solution ( ,x y) to the given system of \nequations?"
+    },
+    {
+      "question_id": "test4_math_m2_q22",
+      "reason": "isolated_operators (2 lines); single_char_lines (5 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 4,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "10 \n8 \n-\n6 \n--\n-1--l. -..... \n,.. .... -\n\nX \n-1 0 -8 -6 -4 -2- \"-',-- -2-,-4-,--6--8- 10 \n:2 \n4\n\nI 6\n\n18\n\nIf a new graph of three linear equations is created \nusing the system of equations shown and the \nequation x + 4y = −16, how many solutions (x y\n, ) \nwill the resulting system of three equations have?"
+    },
+    {
+      "question_id": "test5_rw_m1_q1",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 5,
+      "section": "reading",
+      "topic": "words_in_context",
+      "question_type": "multiple_choice",
+      "question": "The following text is from the 1913 story “The King’s \nCoin” by Emily Pauline Johnson, a Kanienkahagen \n(Mohawk) writer also known as Tekahionwake. \nFox-Foot, a young Ojibwe man, is guiding a group of \nfur traders who are traveling by canoe and suspects \nthat they are being followed.\n\nAt supper time, Fox-Foot would allow no fire to \nbe built, no landing to be made, no Start referenced Content: trace End referenced Content. of their \npassing to be left. They ate canned meat and \nmarmalade, drank again of the stream and \npushed on, until just at dusk they reached the \nedge of a long, still lake, with shores of granite \nand dense fir forest.\n\nAs used in the text, what does the word “trace” most \nnearly mean?"
+    },
+    {
+      "question_id": "test5_rw_m1_q8",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 5,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "Chile’s Atacama Desert is one of the driest places on \nEarth. Start referenced Content: Mary Beth Wilhelm \nand other astrobiologists search for life, or its rem\nains, in this harsh place because the desert cl\nosely mirrors the extreme environment on Mars. End referenced Content. The algae and bacteria found \nin Atacama’s driest regions may offer clues about \nMartian life. By studying how these and other \nmicroorganisms survive such extreme conditions on \nEarth, Wilhelm’s team hopes to determine whether \nsimilar life might have existed on Mars and to \ndevelop the best tools to look for evidence of it.\n\nWhich choice best describes the function of the \nunderlined sentence in the text as a whole?"
+    },
+    {
+      "question_id": "test5_rw_m1_q9",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 5,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "More than 60% of journeys in Mexico City occur via \npublic transit, but simply reproducing a feature of \nthe city’s transit system—e.g., its low fares—is \nunlikely to induce a significant increase in another \ncity’s transit ridership. As Erick Guerra et al. have \nshown, transportation mode choice in urban areas of \nMexico is the product of a complex mix of factors, \nincluding population density, the spatial distribution \nof jobs, and demographic characteristics of \nindividuals. System features do affect ridership, of \ncourse, but Start referenced Content: there is \nan irreducibly contextual dimension of transportation mode choice. End referenced Content.\n\nWhich choice best describes the function of the \nunderlined portion in the text as a whole?"
+    },
+    {
+      "question_id": "test5_rw_m1_q14",
+      "reason": "excessive_line_breaks (48 newlines)",
+      "reasons": [
+        "excessive_line_breaks"
+      ],
+      "test": 5,
+      "section": "reading",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "Partial List of Candidate Species for De-extinction\n\nCommon name Scientific name Became extinct\n\nHeteralocha \nacutirostris \n1907 \nCaribbean \nmonk seal\n\nHuia\n\nMonachus \ntropicalis \n1952 \nPassenger \npigeon\n\nEctopistes \nmigratorius \n1914 \nSaber-toothed \ncat \nSmilodon\n\n11,000 years \nbefore present \nWoolly \nmammoth\n\nMammuthus \nprimigenius\n\n6,400 years \nbefore present\n\nThe passage of time is among the many obstacles \nfaced by scientists who are pursuing de-extinction \nefforts—that is, efforts to use breeding or a mixture \nof cloning and genetic engineering to bring back \nextinct species. Specifically, researchers are \nconcerned that the longer a species has been extinct, \nthe less likely it is that a suitable habitat still exists for \nthat species. Among candidate species for \nde-extinction, this problem would be especially \nconcerning for the [BLANK]\n\nWhich choice most effectively uses data from the \ntable to complete the statement?"
+    },
+    {
+      "question_id": "test5_rw_m1_q16",
+      "reason": "excessive_line_breaks (60 newlines); single_char_lines (5 lines); ocr_artifacts (separator run)",
+      "reasons": [
+        "excessive_line_breaks",
+        "single_char_lines",
+        "ocr_artifacts"
+      ],
+      "test": 5,
+      "section": "reading",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "Ratio of Manganese to Calcium in Samples \nfrom Alboran Sea and Mauritanian Coast\n\n100 \n90 \n80 \n70 \n60 \nso \n40 \n30 \n20 \n10 \n0\n\nj\\ \nI \\ \n• \nI \n'/ \\ \n.. \n\\ \n... \n• \n\\ \nJ ~-,or \n....... \n\\ / \n\"' \n,\n\nr,. _.[ ). -1 J- -r '), -1 }- )' -· \"'--r ], -[ ). _,,\n\n2 \n4 \n6 \n8 10 12 14 16 18 20\n\nApproximate years before present \n(in thousands)\n\n----iir-- Alboran Sea\n\n- -0 -\nMauritanian coast\n\nThe population of the coral Lophelia pertusa \ndeclined significantly around 9,000 years ago in the \nAlboran Sea and around 11,000 years ago near the \nMauritanian coast. Using the ratio of manganese to \ncalcium, which inversely correlates with ocean \noxygenation levels, marine scientist Rodrigo da Costa \nPortilho-Ramos and colleagues evaluated whether \noxygenation played a role in the declines of \nL. pertusa. The researchers concluded that \noxygenation may have been important in the \nAlboran Sea but not near the Mauritanian coast, \nsince [BLANK]\n\nWhich choice most effectively uses data from the \ngraph to complete the statement?"
+    },
+    {
+      "question_id": "test5_rw_m2_q1",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 5,
+      "section": "reading",
+      "topic": "words_in_context",
+      "question_type": "multiple_choice",
+      "question": "-\n\nThe following text is adapted from Elizabeth \nvon Arnim’s 1922 novel The Enchanted April. \nMrs. Wilkins and her friend Rose are traveling \nin Italy.\n\n“I’m going to have one of these gorgeous \noranges,” said Mrs. Wilkins, staying where she \nwas and Start referenced Content: reaching across to End referenced Content. a black bowl piled \nwith them. “Rose, how can you resist them. \nLook—have this one. Do have this beauty—” \nAnd she held out a big one.\n\nAs used in the text, what does the phrase “reaching \nacross to” most nearly mean?"
+    },
+    {
+      "question_id": "test5_rw_m2_q6",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 5,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "The following text is adapted from Jerome K. \nJerome’s 1889 novel Three Men in a Boat (To Say \nNothing of the Dog). The narrator is traveling by boat \nwith Harris and another friend.\n\n[Harris] told us anecdotes of how he had gone \nacross the [English] Channel when it was so \nrough that the passengers had to be tied into \ntheir [beds], and he and the captain were the \nonly two living souls on board who were not ill. \nSometimes it was he and the second mate who \nwere not ill; but it was generally he and one other \nman. Start referenced Content: If not he and an\nother man, then it was he by himself. End referenced Content.\n\nWhich choice best describes the function of the \nunderlined sentence in the text as a whole?"
+    },
+    {
+      "question_id": "test5_rw_m2_q7",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 5,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "Start referenced Content: Several studies have f\nound negligible electoral consequences for gover\nnments that impose fiscal austerity measures, yet \nsome European governments recently suffered electoral\nly due to their austerity programs. End referenced Content. Evelyne Huebscher and colleagues \nattribute this incongruity to governments’ \ntendency—not followed in the recent European \ncases—to implement austerity programs strategically \nto avoid electoral costs (e.g., setting spending cuts to \ntake effect only after the next election), which has \nobscured the inherent political risks of austerity \nmeasures in the election data scholars have \nexamined.\n\nWhich choice best describes the function of the \nunderlined sentence in the text as a whole?"
+    },
+    {
+      "question_id": "test5_rw_m2_q12",
+      "reason": "excessive_line_breaks (66 newlines); single_char_lines (4 lines); ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "excessive_line_breaks",
+        "single_char_lines",
+        "ocr_artifacts"
+      ],
+      "test": 5,
+      "section": "reading",
+      "topic": "command_of_evidence",
+      "question_type": "multiple_choice",
+      "question": "Total Science Research Submissions \nby Topic, 2016-2019\n\n350\n\n\"' \ns:: \n.9 \n\"' \"' ·s \n..0 \n;:I \n\"' \n..... \n0 \nt-.. \nQ) \n..0 s \n;:I z\n\n300\n\nn \n/ \n...\n\nI V-:••••( >······· ., ..\n\n250\n\n200\n\n150\n\n.... ---, J\"---, .,.~\n~\n\n100\n\n50\n\n0\n\n2016 \n2017 \n2018 \n2019\n\nYear\n\n---+- cellular and molecular biology\n\n- -0 -\nphysics and space science \n···O·· medicine and health\n\nanimal science\n\nA student is researching the trends in the topics \nsubmitted to a national science fair for high school \nstudents. The graph shows the number of \nsubmissions by topic that were made each year. \nBased on the data in the graph, the student claims \nthat Start referenced Content: there were more med\nicine and health research topics submitted in 2019 than in any other year. End referenced Content.\n\nWhich choice most effectively uses data from the \ngraph to support the underlined claim?"
+    },
+    {
+      "question_id": "test5_math_m1_q1",
+      "reason": "excessive_line_breaks (43 newlines); isolated_operators (7 lines); single_char_lines (20 lines)",
+      "reasons": [
+        "excessive_line_breaks",
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 5,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "- --\n- --\ny \ny\n\n-\n9 \nI \nI \n-\n8 \n\\\n\n-\n7 \n\\ \nI \n\\ V \n-\n6 \n'/ \n-\n5 \ni-v, \n,. \n\\ \n-\n3 \n\\ \n-\n2 \n' \n-1 \n\\ \n2 -1 U \n1 2 3 4 s\\ 6 7 8 9 \nrg \n\\ .\n\nX\n\nThe graph of a system of a linear equation and a \nnonlinear equation is shown. What is the solution \n(x, y) to this system?"
+    },
+    {
+      "question_id": "test5_math_m1_q3",
+      "reason": "single_char_lines (8 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 5,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "... \" \n--8 \nI \\ \n--7 \nI \n\\ \n--6 '\n\nI \n--5 \n\\ \nI \n--4 \nI \n\\ \n--3 \n' \nI \n--2 \n\\ \nI \n--1 \nI \n\\ \n2 1u \n1 '\n\n19 lf 11 \n+-1 \n,.\n\nX\n\nThe graph of the linear function f is shown, where\n\ny = f(x). What is the y-intercept of the graph of f ?"
+    },
+    {
+      "question_id": "test5_math_m1_q5",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 5,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "The table shows selected values from function f.\n\nx \nf(x) \n−1\n16 \n0 \n17 \n1 \n18 \n2 \n19\n\nWhich of the following is the best description of \nfunction f ?"
+    },
+    {
+      "question_id": "test5_math_m1_q16",
+      "reason": "single_char_lines (8 lines); broken_choices (keys=['B', 'D']); ocr_artifacts (separator run)",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices",
+        "ocr_artifacts"
+      ],
+      "test": 5,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "- --\ny\n\n12\n\n' '\n\n10\n\n8\n\n\\ \n\\ \n\\ \n' ......... -\n2-_4_ -6-~8-\n\n6\n\n4\n\n2\n\nu \n-2\n\nX\n\n~10\n\n-4\n\nThe graph of the rational function f is shown, where y = f(x)\nand x ≥0. Which of the following is the graph of y = f(x) + 5, \nwhere x ≥0 ?\n\ny"
+    },
+    {
+      "question_id": "test5_math_m2_q9",
+      "reason": "single_char_lines (8 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 5,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "12 \n-\n\n\" '\\. \n\\ \n\\ \n\\ \n\\ \n\\ \n\\ \n\\ \n\\ \n1 \n2 \nTime (seconds)\n\n9\n\n6\n\nu\n\nX \n3\n\nA competitive diver dives from a platform into the \nwater. The graph shown gives the height above the \nwater y, in meters, of the diver x seconds after diving \nfrom the platform. What is the best interpretation of \nthe x-intercept of the graph?"
+    },
+    {
+      "question_id": "test5_math_m2_q11",
+      "reason": "excessive_line_breaks (42 newlines); isolated_operators (2 lines); single_char_lines (15 lines)",
+      "reasons": [
+        "excessive_line_breaks",
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 5,
+      "section": "math",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "The scatterplot shows the relationship between \ntwo variables x and y. A line of best fit for the data is \nalso shown.\n\ny\n\n,_ \nV \n/ \n/ \nv • \nV \nY. \n/. \n•v \n-v •\n\n10\n\n9\n\n8\n\n7\n\n6 \n5\n\n4\n\n3\n\n2 \n1\n\nl, 7\n\nX \n12345678910\n\nFor how many of the 10 data points is the actual \ny-value greater than the y-value predicted by the line \nof best fit?"
+    },
+    {
+      "question_id": "test5_math_m2_q15",
+      "reason": "single_char_lines (5 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 5,
+      "section": "math",
+      "topic": "statistics",
+      "question_type": "multiple_choice",
+      "question": "Five Eretmochelys imbricata, a type of sea turtle, each \nhave a nest. The table shows an original data set of \nthe number of eggs that each turtle laid in its nest.\n\nNest Number of eggs\n\nA \n149 \nB \n144 \nC \n148 \nD \n136 \nE \n139\n\nA sixth nest with 121 eggs is added to create a new \ndata set. Which of the following correctly compares \nthe means of the two data sets?"
+    },
+    {
+      "question_id": "test5_math_m2_q27",
+      "reason": "isolated_operators (2 lines)",
+      "reasons": [
+        "isolated_operators"
+      ],
+      "test": 5,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "numeric_response",
+      "question": "For an electric field passing through a flat surface \nperpendicular to it, the electric flux of the electric \nfield through the surface is the product of the electric \nfield’s strength and the area of the surface. A certain \nflat surface consists of two adjacent squares, where \nthe side length, in meters, of the larger square is \n3 times the side length, in meters, of the smaller \nsquare. An electric field with strength 29.00 volts per \nmeter passes uniformly through this surface, which is \nperpendicular to the electric field. If the total electric \nflux of the electric field through this surface is\n\n·\n4,640 volts\nmeters, what is the electric flux, in \n·\nvolts\nmeters, of the electric field through the larger \nsquare?"
+    },
+    {
+      "question_id": "test6_rw_m1_q4",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 6,
+      "section": "reading",
+      "topic": "words_in_context",
+      "question_type": "multiple_choice",
+      "question": "The following text is adapted from James Baldwin’s \n1956 novel Giovanni’s Room. The narrator is riding \nin a taxi down a street lined with food vendors and \nshoppers in Paris, France.\n\nThe multitude of Paris seems to be dressed in \nblue every day but Sunday, when, for the most \npart, they put on an unbelievably festive black. \nHere they were now, in blue, Start referenced Content: disputing End referenced Content, every \ninch, our passage, with their wagons, \nhandtrucks, their bursting baskets carried at an \nangle steeply self-confident on the back.\n\n©1956 by James Baldwin\n\nAs used in the text, what does the word “disputing” \nmost nearly mean?"
+    },
+    {
+      "question_id": "test6_rw_m1_q6",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 6,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "On painter William H. Johnson’s return to the \nUnited States in 1938 after a decade in Europe, his \nstyle underwent an abrupt transformation. Start re\nferenced Content: Turning away from landscapes pa\ninted in an expressionist style—a style that often involv\nes using fluid, distorted shapes and thick, texture\nd brushstrokes to express the artist's subjective expe\nrience of reality—Johnson began painting portrait\ns of Black Americans in a bold new way. End referenced Content. Evocative of African sculpture and \nAmerican and Scandinavian folk art, these portraits \nfeature flat, deliberately oversimplified figures in a \nvibrant but limited color palette.\n\nWhich choice best describes the function of the \nunderlined sentence in the text as a whole?"
+    },
+    {
+      "question_id": "test6_rw_m1_q8",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 6,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "The following text is adapted from Herman \nMelville’s 1855 novel Israel Potter. Israel is a young \nman wandering through New England during the \nlate eighteenth century.\n\nHe hired himself out for three months; at the \nend of that time to receive for his wages \ntwo hundred acres of land lying in New \nHampshire. [...] His employer proving false to \nthe contract in the matter of the land, and there \nbeing no law in the country to force him to fulfil \nit, Israel—Start referenced Content: who, howeve\nr brave-hearted, and even much of a dare-\ndevil upon a pinch, seems nevertheless to have\n evinced, throughout many parts of his career\n, a singular patience and mildness End referenced Content. —was obliged to look round for other \nmeans of livelihood than clearing out a farm for \nhimself in the wilderness.\n\nWhich choice best describes the function of the \nunderlined portion in the text as a whole?"
+    },
+    {
+      "question_id": "test6_rw_m1_q9",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 6,
+      "section": "reading",
+      "topic": "command_of_evidence",
+      "question_type": "multiple_choice",
+      "question": "Text 1 \nIn 1954 George Balanchine choreographed a \nproduction of The Nutcracker, a ballet by Pyotr Ilyich \nTchaikovsky. It has since become a tradition for \nhundreds of dance companies in North America to \nstage The Nutcracker each year. Start referenced Conte\nnt: But the show is stuck in the past, with a\nn old-fashioned story and references, so it should no longer be produced. End referenced Content. Ballet \nneeds to create new traditions if it wants to stay \nrelevant to contemporary audiences.\n\nText 2 \nThe Nutcracker is outdated, but it should be kept \nbecause it’s a holiday favorite and provides \nsubstantial income for some dance companies. \nAlthough it can be behind the times, there are \ncreative ways to update the show. For example, \nDebbie Allen successfully modernized the story. Her \nshow Hot Chocolate Nutcracker combines ballet, tap, \nhip-hop, and other styles, and it has been gaining in \npopularity since it opened in 2009.\n\nBased on the texts, how would the author of Text 2 \nmost likely respond to the underlined claim in \nText 1?"
+    },
+    {
+      "question_id": "test6_rw_m1_q13",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 6,
+      "section": "reading",
+      "topic": "command_of_evidence",
+      "question_type": "multiple_choice",
+      "question": "The 2021 exhibition This Is the Day at Arkansas’s \nCrystal Bridges Museum of American Art featured \nworks dealing with expressions of faith and \nspirituality in the Black community. The museum’s \n2022 exhibition The Dirty South, meanwhile, focused \non Black culture in the American South from 1920 to \n2020, with a particular focus on the intersections \nbetween visual arts and music. Together, these \nexhibitions don’t merely highlight the diversity of the \nBlack experience in the US; Start referenced Conten\nt: they also showcase the diverse media through wh\nich artists have depicted and engaged with that experience. End referenced Content.\n\nWhich statement about the exhibitions, if true, \nwould most directly support the underlined claim?"
+    },
+    {
+      "question_id": "test6_rw_m1_q14",
+      "reason": "excessive_line_breaks (48 newlines)",
+      "reasons": [
+        "excessive_line_breaks"
+      ],
+      "test": 6,
+      "section": "reading",
+      "topic": "command_of_evidence",
+      "question_type": "multiple_choice",
+      "question": "Mean Attentiveness Scores by\nLeave Time Condition\n\nMean test score (higher scores\nindicate greater attentiveness)\n\n600\n540\n480\n420\n360\n300\n240\n180\n120\n\n60\n\n0\n\nfirst\nsecond\nthird\n\nTest administration\n\nno leave\n\n2–4 days leave\n\n1–5 weeks leave\n\nTo investigate potential cognitive benefits of taking \nleave from work, psychologist Jan Packer and \ncolleagues conducted a six-month study of \nAustralian university staff members who took no \nleave from work during the study, took 2–4 days of \nleave, or took 1–5 weeks of leave. Tests of \nattentiveness were administered to participants three \ntimes during the study: at random for the no-leave \nstaff, and for the rest, one week before their leave, \none week following their return to work, and one \nweek after the second test administration. After \nanalyzing the results, the researchers concluded that \nlonger leave times might not confer a greater \ncognitive benefit than shorter leave times do.\n\nWhich choice best describes data from the graph that \nsupport the researchers’ conclusion?"
+    },
+    {
+      "question_id": "test6_rw_m2_q8",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 6,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "The people of medieval Europe have traditionally \nbeen seen as uninterested in cleanliness and hygiene, \nbut modern research has shown that this is largely a \nmyth. According to historian Eleanor Janega, most \nmedieval towns in Europe had at least one public \nbathhouse, which often offered both full-immersion \nbaths and—more affordably—steam baths. Start \nreferenced Content: While such amenities were\n available mainly to town dwellers End referenced Content, regular bathing in rivers and streams or \ndaily sponge baths at home were common practices \nthroughout medieval Europe.\n\nWhich choice best describes the function of the \nunderlined portion?"
+    },
+    {
+      "question_id": "test6_rw_m2_q9",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 6,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "Scholarly accounts of the Chicano movement—a \nmovement that advocated for the social, political, \nand cultural empowerment of Mexican Americans \nand reached its zenith in the 1960s and 1970s—Start\n referenced Content: tend to focus on the most milit\nant, outspoken figures in the movement End referenced Content, making it seem uniformly radical. \nGeographer Juan Herrera has shown, however, that \nif we shift our focus toward the way the movement \nmanifested in comparatively low-profile \nneighborhood institutions and projects, we see \nparticipants espousing an array of political \norientations and approaches to community activism.\n\nWhich choice best describes the function of the \nunderlined portion in the text as a whole?"
+    },
+    {
+      "question_id": "test6_math_m1_q2",
+      "reason": "single_char_lines (13 lines); broken_choices (keys=['A', 'C'])",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "The scatterplot shows the relationship between two variables, x and y.\n\ny\n\n5,000 \n•\n\n4,000\n\n3,000 \n• \n• \n2,000\n\n1,000 \n• • \n-\n• • \nv \n1 \n2 \n3 \n4 \n5 \n6 \n7 \nX\n\nWhich of the following graphs shows the most appropriate model for \nthe data?\n\ny \ny"
+    },
+    {
+      "question_id": "test6_math_m1_q5",
+      "reason": "single_char_lines (8 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "y\n\n-\"' \nI-< \n60 \nt \n50 \ns \n'-g \n40 \n;;I \n8 \nM \n30\n\n\"\n\n\" \\ ' \\ \nX \n12345678910 \nTime (seconds)\n\nI \nI\n\n()\n\nAn object was launched upward from a platform. \nThe graph shown models the height above ground, y, \nin meters, of the object x seconds after it was \nlaunched. For which of the following intervals of \ntime was the height of the object increasing for the \nentire interval?"
+    },
+    {
+      "question_id": "test6_math_m1_q6",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "numeric_response",
+      "question": "How many Start referenced Content: yards End referenced Content. are equivalent to 1,116 inches? \n(\n)\n1 yard = 36 inches"
+    },
+    {
+      "question_id": "test6_math_m1_q8",
+      "reason": "isolated_operators (2 lines); single_char_lines (4 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "f x\nx\nb\n=\n+\n( )\n\nFor the linear function f, b is a constant. \nWhen x = 0, f x = 30\n( )\n. What is the value of b ?"
+    },
+    {
+      "question_id": "test6_math_m1_q12",
+      "reason": "single_char_lines (6 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "Which expression is equivalent to\n\nx\nx\nx\n+ 11\n+\n−5\n+ 5\n2\n2\n(\n)\n(\n)(\n) ?"
+    },
+    {
+      "question_id": "test6_math_m1_q13",
+      "reason": "isolated_operators (2 lines); single_char_lines (6 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "numeric_response",
+      "question": "The function h is defined by h x\nx\n( ) =\n8\n5 + 6. What is\n\nthe value of h(2) ?\n\n-\n\n14\n\n3\n\n5 \nNote: Figure not drawn to scale.\n\nThe figure shows the lengths, in inches, of two sides \nof a right triangle. What is the area of the triangle, in \nsquare inches?\n\n-"
+    },
+    {
+      "question_id": "test6_math_m1_q15",
+      "reason": "isolated_operators (2 lines); single_char_lines (20 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "y\n\n13 \n12 \n11 \n10\n\n,/ .---\n-r--,....,__ \n9 \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1\n\n/ \n/\n\nu \nX \n1 \n2 \n3 \n4 \n5 \n6\n\nThe graph models the number of active projects a \ncompany was working on x months after the end of \nNovember 2012, where \n \n0 ≤x ≤6. According to the \nmodel, what is the predicted number of active \nprojects the company was working on at the end of \nNovember 2012?"
+    },
+    {
+      "question_id": "test6_math_m1_q17",
+      "reason": "single_char_lines (4 lines); broken_choices (duplicate choices)",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "P\nN\nC\n=\n19 −\n(\n)\n\nThe given equation relates the positive numbers P, \nN, and C. Which equation correctly expresses C in \nterms of P and N ?"
+    },
+    {
+      "question_id": "test6_math_m1_q18",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "w\nw\n+ 12\n−40 = 0\n2\n\nWhich of the following is a solution to the given \nequation?"
+    },
+    {
+      "question_id": "test6_math_m1_q19",
+      "reason": "single_char_lines (5 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "statistics",
+      "question_type": "multiple_choice",
+      "question": "The table shown summarizes the number of \nemployees at each of the 17 restaurants in a town.\n\nNumber of employees Number of restaurants\n\n2 to 7 \n2 \n8 to 13 \n4 \n14 to 19 \n2 \n20 to 25 \n7 \n26 to 31 \n2\n\nWhich of the following could be the median number \nof employees for the restaurants in this town?"
+    },
+    {
+      "question_id": "test6_math_m1_q21",
+      "reason": "isolated_operators (2 lines); single_char_lines (15 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "numeric_response",
+      "question": "1 \n4 \nI \n2\n\nX\n\n6_,....::4_ f2 \nl, \n2 _ _ 4_\n\n12 \nj \n\\ \nI\n\n\\ \n14 I \n\\ \nI \nI \n, I 6 ,\n\n\\ \n\\.. J\n\nV\n\n10\n\nThe graph of y\nx\nbx\nc\n= 2\n+\n+\n2\nis shown, where b\n\nand c are constants. What is the value of bc ?"
+    },
+    {
+      "question_id": "test6_math_m1_q26",
+      "reason": "single_char_lines (8 lines); broken_choices (garbled choice)",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "x \ng(x) \n−27\n3\n−9\n0\n21\n5\n0\n21\n5\n\nThe table shows three values of x and their\n\ncorresponding values of g x\n( ), where g x\nf x\nx\n=\n+ 3\n( )\n( )\n\nand f is a linear function. What is the y-intercept of\n\nthe graph of y\nf x\n= ( ) in the xy-plane?"
+    },
+    {
+      "question_id": "test6_math_m2_q4",
+      "reason": "single_char_lines (11 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "The graph of function f is shown, where y\nf x\n= ( ).\n\ny\n\n10 \n8\n\n6 \n4 \n., \n,,,. \n2 \nI.;\n\nI \nX \n10 -8 -6 -4 \nI.A'\" \n2- 4- -6-~8- 10 \n... , 2 \n.,. \nI \n... \nI 4 \n... \nI \n'6 \nI \nlg \nI \n'16\n\nWhich of the following describes function f ?"
+    },
+    {
+      "question_id": "test6_math_m2_q5",
+      "reason": "single_char_lines (11 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "y\n\nI \nI \n() \n) \n2 \n4 \nX\n\n->---2 \nI \nI\n\n->---4 ) \nI\n\n-~f \nI \n-~-s\n\nThe graph of the function f is shown, where\n\ny\nf x\n= ( ). What is the y-intercept of the graph?"
+    },
+    {
+      "question_id": "test6_math_m2_q8",
+      "reason": "single_char_lines (5 lines); broken_choices (garbled choice)",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "Which expression is equivalent to x\nx\nx\n5\n−6\n+ 8\n5\n4\n3 ?"
+    },
+    {
+      "question_id": "test6_math_m2_q12",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "x\nx\nx\n( + 2)( −5)( + 9) = 0\n\nWhat is a positive solution to the given equation?"
+    },
+    {
+      "question_id": "test6_math_m2_q18",
+      "reason": "broken_choices (keys=['A', 'B', 'C'])",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": "Line k is defined by y\nx\n= 7 + 1\n8 . Line j is\n\nperpendicular to line k in the xy-plane. What is\n\nthe slope of line j ?"
+    },
+    {
+      "question_id": "test6_math_m2_q20",
+      "reason": "single_char_lines (6 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "numeric_response",
+      "question": "If 4\n=\n4\nc\n8\n7\n3\n, what is the value of c ?"
+    },
+    {
+      "question_id": "test6_math_m2_q21",
+      "reason": "single_char_lines (5 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "numeric_response",
+      "question": "x\ny\n−2 −4\n+ 7 = 117\n(\n)\n(\n)\nx\ny\n−2 + 4\n+ 7 = 442\n(\n)\n(\n)\n\nThe solution to the given system of equations is\n\nx y\n( , ). What is the value of \nx\n6( −2) ?"
+    },
+    {
+      "question_id": "test6_math_m2_q22",
+      "reason": "broken_choices (keys=['A', 'B', 'C'])",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": "In triangle ABC, angle B is a right angle. The length \nof side \n \nAB is 10 37 and the length of side \n \nBC is \n24 37. What is the length of side AC ?\n\n__t \n__t\n\n__t\n\n14 37"
+    },
+    {
+      "question_id": "test6_math_m2_q23",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "x\n4\n\nf x\n( ) = (1.84)\n\nThe function f is defined by the given equation. The\n\nx\n\n,\n\nequation can be rewritten as f x\np\n( ) = 1 + 100\n\nwhere p is a constant. Which of the following is\n\nclosest to the value of p ?"
+    },
+    {
+      "question_id": "test6_math_m2_q24",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "The function f is defined by f x\na x\nb\n( ) =\n+\n, where\n\na and b are constants. In the xy-plane, the graph of\n\ny\nf x\n= ( ) passes through the point (−24, 0), and\n\nf (24) < 0. Which of the following must be true?"
+    },
+    {
+      "question_id": "test6_math_m2_q25",
+      "reason": "single_char_lines (3 lines); broken_choices (keys=['A', 'B', 'C'])",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "circles",
+      "question_type": "multiple_choice",
+      "question": "In the xy-plane, a circle has center C with \ncoordinates h k\n( , ). Points A and B lie on the circle. \nPoint A has coordinates (\n)\n\n_J\n\nh\nk\n+ 1,\n+\n102 , and \nACB\n∠\nis a right angle. What is the length of AB ?\n\n_J\n\n206"
+    },
+    {
+      "question_id": "test6_math_m2_q26",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "statistics",
+      "question_type": "multiple_choice",
+      "question": "40 \n,/ .,,, \n,,/\n\n30 \n/\" \n/' ,;I\n\n20 \n/ ,,\n\n,T\n\nu \n4 \n8 \n12 \n16 \n20 \nX\n\nThe scatterplot shows the relationship between \ntwo variables, x and y, for data set E. A line of best fit \nis shown. Data set F is created by multiplying the \ny-coordinate of each data point from data set E by \n3.9. Which of the following could be an equation of a \nline of best fit for data set F?"
+    },
+    {
+      "question_id": "test6_math_m2_q27",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 6,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "numeric_response",
+      "question": "x\ny\ny\n48 −64\n= 48 + 24\n\nry\nx\n= 1\n8 −12\n\nIn the given system of equations, r is a constant. If \nthe system has no solution, what is the value of r ?"
+    },
+    {
+      "question_id": "test7_rw_m1_q2",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 7,
+      "section": "reading",
+      "topic": "words_in_context",
+      "question_type": "multiple_choice",
+      "question": "DIRECTI\n\nThe following text is from John Muir’s 1913\nautobiography The Story of My Boyhood and Youth.\nMuir describes being on a boat.\n\nThe water was so Start referenced Content:clear End referenced Content that it was almost\ninvisible, and when we floated slowly out over\nthe plants and fishes, we seemed to be\nmiraculously sustained in the air while exploring\na veritable fairyland.\n\nAs used in the text, what does the word “clear” most\nnearly mean?"
+    },
+    {
+      "question_id": "test7_rw_m1_q6",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 7,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "The following text is from Joan Didion’s memoir The\nYear of Magical Thinking. In the text, the author\ndiscusses her home life.\n\n[I]n California we heated our houses by building\nfires. We built fires even on summer evenings,\nbecause the fog came in. Start referenced C\nontent:Fires said we were home, we had draw\nn the circle, we were safe through the night. End referenced Content\n\nStart referenced Content:Fires said we were home, we had drawn the circle, we were safe through the night. End referenced Content\n\nWhich choice best describes the function of the\nunderlined portion in the text as a whole?"
+    },
+    {
+      "question_id": "test7_rw_m1_q7",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 7,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "The majority of plastics today wind up in landfills or\nare, at best, recycled into materials that have a very\nlimited range of applications. To address this\nproblem, chemist Guoliang Liu and colleagues\ndesigned a reactor that melts polyethylene and\npolypropylene—two widely used plastics—into a\nwax. The wax can then be transformed into a\nsurfactant Start referenced Content:a chemi\ncal compound usable as a detergent End referenced Content. With this promising new method, plastic\nwaste could be turned into a range of useful cleaning\nproducts.\n\nWhich choice best states the function of the\nunderlined portion of the text?"
+    },
+    {
+      "question_id": "test7_rw_m1_q8",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 7,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "The following text is from H.D.’s 1916 poem\n“Mid-Day.” In the poem, the speaker is on a path in\nan outdoor setting.\n\nStart referenced Content:A slight wind shakes the seed-pods End referenced Content—\nmy thoughts are spent\nas the black seeds.\nMy thoughts tear me,\nI dread their fever.\nI am scattered in its whirl.\nI am scattered like\nthe hot shrivelled seeds.\n\nWhich choice best describes the function of the\nunderlined portion in the text as a whole?"
+    },
+    {
+      "question_id": "test7_rw_m1_q9",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 7,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "In 2023 literary scholar Jeremy Douglass cautioned\ntechnology investors and enthusiasts who predict\nconventional books’ ultimate displacement by newer\nforms of media. Douglass observed thatStart refere\nnced Content:the conceptof an “interactive”\n text is much older than technologists assume, extendi\nng back to the first time readers scratched notes into a text’s margins End referenced Content In\naddition, newer media, such as video games, haven’t\nreplaced older forms of entertainment, such as comic\nbooks, but rather exist alongside them. Douglass\nbelieves that rather than supplanting books,\ntechnology is simply making new forms of\nexpression possible.\n\nWhich choice best describes the function of the\nunderlined portion in the text as a whole?"
+    },
+    {
+      "question_id": "test7_rw_m2_q6",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 7,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "In the 1950s, scientists didn’t know much about the\nocean floor.Start referenced Content:Many scientists a\nt the time believed that the ocean floor was mostly flat. End referenced ContentBut geologist\nMarie Tharp and her research partner,\nBruce Heezen, proved that this idea was wrong.\nUsing sonar data collected from the Atlantic Ocean,\nTharp and Heezen showed that the floor was filled\nwith canyons, mountains, and valleys.\n\nWhich choice best describes the function of the\nunderlined sentence in the text as a whole?"
+    },
+    {
+      "question_id": "test7_rw_m2_q7",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 7,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "In the early days of television in the 1940s, many\npeople thought that US television programs would\nrely on the financial support of ad agencies and\ncommercial sponsors, much like radio did. But\nadvertisers hesitated to jump into a new space,\nStart referenced Content:particularly at a time when\n the manufacturing of new television sets w\nas stalled due to the US’s involvement in World War II. End referenced ContentBroadcasters, like the\nNational Broadcasting Company (NBC), needed to\npersuade advertisers to support their programming\ndespite not knowing whether there would be a robust\ntelevision audience to begin with.\n\nWhich choice best describes the function of the\nunderlined phrase in the text as a whole?"
+    },
+    {
+      "question_id": "test7_rw_m2_q8",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 7,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "The Bayeux Tapestry, from eleventh-century France,\ndepicts 75 scenes over 250 feet of fabric. It was likely\nproduced by workers embroidering in sections and\nthen joining the resulting panels together. It’s\nplausible that the workshop that produced the\ntapestry had never produced one so large, and some\nresearchers claim that a close examination of the\njoins—the places where the panels are stitched\ntogether—suggests that the workers developed and\nrefined their joining process over the course of\nproduction. Start referenced Content:For example, t\nhe first join the workers completed exhibits a\n clear misalignment of the borders of the two panels, \nwhereas the later joins are virtually invisible. End referenced Content\n\nWhich choice best describes the function of the\nunderlined sentence in the text as a whole?"
+    },
+    {
+      "question_id": "test7_rw_m2_q9",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 7,
+      "section": "reading",
+      "topic": "command_of_evidence",
+      "question_type": "multiple_choice",
+      "question": "Text 1\nLittle is known about how plate tectonics—wherein\nslabs of Earth’s crust move over, under, away from,\nand against one another—began.Start referenced \nContent:Some researchers contend End referenced Content hat tectonic movements began around\n3 billion years ago, often noting that computer\nmodels of Earth’s mantle temperature at the time\nindicate that the mantle would have been sufficiently\nmolten to enable the plates to move.\n\nText 2\nUltimately, any plausible claim about the inception\nof tectonic movement must rest on empirical\nevidence from the geological record. Researcher\nWriju Chowdhury and his team analyzed the\ngeochemistry of zircon crystals to gain insight into\nthe chemical composition of the magma from which\nthe crystals formed and, based on the data,\ncompellingly argue that plate tectonics may have\nbeen occurring as early as 4.2 billion years ago.\n\nBased on the texts, how would the author of Text 2\nmost likely respond to what “some researchers\ncontend” as described in Text 1?"
+    },
+    {
+      "question_id": "test7_rw_m2_q14",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 7,
+      "section": "reading",
+      "topic": "command_of_evidence",
+      "question_type": "multiple_choice",
+      "question": "Janet Echelman is a sculptor and fiber artist. She has\ninstalled giant sculptures all over the world.\nEchelman uses bright and flowing materials, which\nmimic the wind.Start referenced Content:Howev\ner, while her sculptures appear as delicate as a breez\ne, they are actually very durable. End referenced Content\n\nWhich quotation from an article about Echelman’s\nsculptures, if true, would most effectively illustrate\nthe underlined claim?"
+    },
+    {
+      "question_id": "test7_rw_m2_q19",
+      "reason": "ocr_artifacts (separator run)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 7,
+      "section": "reading",
+      "topic": "grammar",
+      "question_type": "multiple_choice",
+      "question": "Nowadays, tug-of-war is usually seen as an informal\ngame one might play at a picnic or in gym class.\nSurprisingly, the Olympic committee once decided\n_______ tug-of-war as an official Olympic event!\nNations competed in the event at the Olympic\nGames from 1900 to 1920.\n\nWhich choice completes the text so that it conforms\nto the conventions of Standard English?"
+    },
+    {
+      "question_id": "test7_math_m1_q1",
+      "reason": "single_char_lines (10 lines); broken_choices (missing choices)",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "The scatterplot shows the temperature, in degrees\nFahrenheit (°F), and the distance above sea level, in\nfeet, measured at 6 locations on Mount Jefferson. A\nline of best fit is also shown.\n\ny\n\n0\n\n8\n\n0 \n0\n\n7\n\n6\n\n0 -' \n0 --', --\n0 \n---\nc-. \n0\n\n5 \nTemperature 4 \n(OF)"
+    },
+    {
+      "question_id": "test7_math_m1_q3",
+      "reason": "single_char_lines (5 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": ",__\n\n2\n\n0\n\n1\n\nX\n\n0 \n2,000 4,000 6,000 8,000 \nDistance above sea level (feet)\n\nAt a distance of 4,000 feet above sea level, what is the\ntemperature, in °F, predicted by the line of best fit?"
+    },
+    {
+      "question_id": "test7_math_m1_q5",
+      "reason": "broken_choices (missing choices)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "The bar graph summarizes the charge, in\nkilowatt-hours (kWh), a battery received each day\nfor 15 days."
+    },
+    {
+      "question_id": "test7_math_m1_q7",
+      "reason": "isolated_operators (5 lines); single_char_lines (14 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "6 \n! 5\n\n-\n\n'o \n4\n\n-\n\n3\n\n-\n\n§ 2 \nz\n\n-\n\n-\nI I\n\n1\n\nI I I I \n0 \n8 \n9 \n11 \n16 \n23\n\n0\n\nCharge (kWh)\n\nFor how many of these 15 days did the battery\nreceive a charge of 0 kWh?"
+    },
+    {
+      "question_id": "test7_math_m1_q8",
+      "reason": "excessive_line_breaks (45 newlines); single_char_lines (12 lines)",
+      "reasons": [
+        "excessive_line_breaks",
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "y\n\n0\n\n35\n\n30\n\n0 \n0 \n0 ' \n0 \n0 \n0\n\n25\n\nValue (dollars) 20\n\n15 \n10\n\ni-..\n\nI',,\n\n,-... --\n\n5\n\nX\n\n0\n\n4 \n8 \n12 16 20 24 \nNumber of months\n\nafter purchase\n\nThe graph shown gives the estimated value, in\ndollars, of a tablet as a function of the number of\nmonths since it was purchased. What is the best\ninterpretation of the y-intercept of the graph in this\ncontext?"
+    },
+    {
+      "question_id": "test7_math_m1_q11",
+      "reason": "excessive_line_breaks (45 newlines); isolated_operators (3 lines); single_char_lines (15 lines)",
+      "reasons": [
+        "excessive_line_breaks",
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "y\n\n9 \n\" \n,i \ni\\ \n/V \n'\n\n/ \n'\n\n/ ll \n'\n\n6 \nX V\n\nV /\n\n5\n\n4 \nV\n\n/\n\n3 \n/\n\n2\n\n1\n\nV\n\nu \nX \n-8 -7 -6 -5 -4 -3 -2 -1 \n1 2 3\n\nThe graph of a system of an absolute value function\nand a linear function is shown. What is the solution\n\nx y\n( , ) to this system of two equations?"
+    },
+    {
+      "question_id": "test7_math_m1_q12",
+      "reason": "broken_choices (garbled choice)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "y\nx\n= 6 + 3\n\nOne of the two equations in a system of linear\nequations is given. The system has infinitely many\nsolutions. Which equation could be the second\nequation in this system?"
+    },
+    {
+      "question_id": "test7_math_m1_q13",
+      "reason": "single_char_lines (6 lines); malformed_equation (operator run)",
+      "reasons": [
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "numeric_response",
+      "question": "- - - - - - - -\n1 \nI\n\nIf\np\n6\n7\n+ 18 = 54, what is the value of p\n7\n?"
+    },
+    {
+      "question_id": "test7_math_m1_q14",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "numeric_response",
+      "question": "y\nx\nx\ny\n= 9 + 12\n+ 7\n= 20\n\nThe solution to the given system of equations is\n\nx y\n( , ). What is the value of y ?"
+    },
+    {
+      "question_id": "test7_math_m1_q15",
+      "reason": "isolated_operators (2 lines); single_char_lines (7 lines); broken_choices (garbled choice)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "circles",
+      "question_type": "multiple_choice",
+      "question": "A circle in the xy-plane has the equation\n\nx\ny\nk\n−13\n+\n−\n= 64\n2\n2\n(\n)\n(\n)\n. Which of the following\n\ngives the center of the circle and its radius?"
+    },
+    {
+      "question_id": "test7_math_m1_q16",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "The function f is defined by f x\nx\nx\n=\n−4\n( )\n. What\nvalue of a satisfies f\nf a\n5 −\n= −15\n( )\n( )\n?"
+    },
+    {
+      "question_id": "test7_math_m1_q19",
+      "reason": "single_char_lines (4 lines); broken_choices (garbled choice)",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "n\nt\nw\n12 −2 = −2\n\nThe given equation relates the variables n, t, and w,\nwhere n > 0, t > 0, and w\nt\n> . Which expression is\nequivalent to n ?"
+    },
+    {
+      "question_id": "test7_math_m1_q20",
+      "reason": "excessive_line_breaks (46 newlines); single_char_lines (27 lines)",
+      "reasons": [
+        "excessive_line_breaks",
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "statistics",
+      "question_type": "numeric_response",
+      "question": "During a study, the temperature, in degrees\nCelsius (°C), of the air in a chamber was recorded to\nthe nearest integer at certain times. The scatterplot\nshows the recorded temperature y, in °C, of the air in\nthe chamber x minutes after the start of the study.\n\ny\n\n3 \n2 \n2 \n2 \n2 \n2 \n1 \nTemperature 1\n\n0 \n8 \n6 \n4 \n2 \n0 \n8 \n6 \n4 \n2 \n0 \n8 \n6 \n4 \n2\n\ncoc) \nl \n1\n\nX\n\n0 \n1 2 3 4 5 6 7 8\n\nTime (minutes)\n\nWhat was the average rate of change, in °C per\nminute, of the recorded temperature of the air in the\nchamber from x = 5 to x = 7 ?"
+    },
+    {
+      "question_id": "test7_math_m1_q24",
+      "reason": "single_char_lines (6 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "x\ny\ns\n−2\n24\ns\n−\n21\ns\n15\n\nThe table shows three values of x and their\ncorresponding values of y, where s is a constant.\nThere is a linear relationship between x and y.\nWhich of the following equations represents this\nrelationship?"
+    },
+    {
+      "question_id": "test7_math_m1_q27",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "numeric_response",
+      "question": "f x\nx\nx\n=\n−2\n+ 15\n( )\n(\n)(\n)\n\nThe function f is defined by the given equation. For\nwhat value of x does f x\n( ) reach its minimum?"
+    },
+    {
+      "question_id": "test7_math_m2_q3",
+      "reason": "excessive_line_breaks (45 newlines); single_char_lines (20 lines); broken_choices (garbled choice)",
+      "reasons": [
+        "excessive_line_breaks",
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "y\n\n\\ \n12 \nI \n\\ \n11 \nI \n\\\n\n10 \nI \n\\ \n9 \nI \n\\ \n8 \nI \n\\ \n7 \nI \n'\n\n6 \nI \n5 \nJ \n\\ \n4 \n\\3 \nI \n\"( / \n.,\n\n1\n\n-2 \nf \n2\n\nX\n\nThe graph of the quadratic function y\nf x\n= ( ) is\nshown. What is the vertex of the graph?"
+    },
+    {
+      "question_id": "test7_math_m2_q7",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "numeric_response",
+      "question": "2\n( )\n\n.\n\nThe function f is defined by f x\nx\n= 5 1\n4 −\n+ 11\n4\n\nWhat is the value of f 1\n\n4\n\n?"
+    },
+    {
+      "question_id": "test7_math_m2_q9",
+      "reason": "single_char_lines (5 lines); broken_choices (garbled choice)",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "Which expression is equivalent to\nx\nx\nx\n23\n+ 2\n+ 9\n3\n2\n?"
+    },
+    {
+      "question_id": "test7_math_m2_q10",
+      "reason": "single_char_lines (8 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "Which expression is equivalent to\n\nx\nx\nx\nx\n9\n+ 5 + 7 + 6\n+ 5\n−5\n3\n3\n2\n(\n)\n(\n) ?"
+    },
+    {
+      "question_id": "test7_math_m2_q12",
+      "reason": "broken_choices (missing choices)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "In the given scatterplot, a line of best fit for the data\nis shown.\n\ny"
+    },
+    {
+      "question_id": "test7_math_m2_q14",
+      "reason": "excessive_line_breaks (43 newlines); isolated_operators (12 lines); single_char_lines (24 lines)",
+      "reasons": [
+        "excessive_line_breaks",
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": "/ \n-/ \n/ \n- ,/ \n/ \n/ \n/ \n/ \n= \n- /_ \n/ \n-\n\n12\n\n10\n\n8\n\n6\n\n4\n\n/\n\n,\n\n/\n\n2\n\nu\n\nX \n1 \n2 \n3 \n4 \n5 \n6 \n7\n\nWhich of the following is closest to the slope of the\nline of best fit shown?"
+    },
+    {
+      "question_id": "test7_math_m2_q15",
+      "reason": "broken_choices (garbled choice)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "An investment account was opened with an initial\nvalue of $890. The value of the account doubled\nevery 10 years. Which equation represents the value\nof the account M t( ), in dollars, t years after the\naccount was opened?\n\nt\n10\n( )"
+    },
+    {
+      "question_id": "test7_math_m2_q16",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "<\n< 22\n\ny\nx\nx\n\nFor which of the following tables are all the values of\nx and their corresponding values of y solutions to the\ngiven system of inequalities?"
+    },
+    {
+      "question_id": "test7_math_m2_q18",
+      "reason": "single_char_lines (6 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "y\nx\ny\nx\n3\n= 4 + 17\n−3\n= 9 −23\n\nThe solution to the given system of equations is\n\nx y\n,\n(\n). What is the value of\nx\n39\n?"
+    },
+    {
+      "question_id": "test7_math_m2_q19",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "h t\nt\nb\n= −16\n+\n2\n( )\n\nThe function h estimates an object’s height, in feet,\nabove the ground t seconds after the object is\ndropped, where b is a constant. The function\nestimates that the object is 3,364 feet above the\nground when it is dropped at t = 0. Approximately\nhow many seconds after being dropped does the\nfunction estimate the object will hit the ground?"
+    },
+    {
+      "question_id": "test7_math_m2_q20",
+      "reason": "single_char_lines (6 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "numeric_response",
+      "question": "x\nx\n2\n−8 −7 = 0\n2\n\nOne solution to the given equation can be written as\n\nk\n8 −\n4\n, where k is a constant. What is the value\n\nof k ?"
+    },
+    {
+      "question_id": "test7_math_m2_q21",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "numeric_response",
+      "question": "A line intersects two parallel lines, forming\nfour acute angles and four obtuse angles. The\nmeasure of one of the acute angles is\nx\n9 −560 °\n(\n) .\nThe sum of the measures of one of the acute angles\nand three of the obtuse angles is\nx\nw\n−18 +\n°\n(\n) . What\nis the value of w ?"
+    },
+    {
+      "question_id": "test7_math_m2_q22",
+      "reason": "isolated_operators (3 lines); single_char_lines (9 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "x\nf(x)\n\n–4\n0\n\n19\n\n5\n–\n\n1\n\n18\n\n5\n–\n\n2\n\nFor the linear function f, the table shows three values\nof x and their corresponding values of f x\n( ). If\nh x\nf x\n=\n−13\n( )\n( )\n, which equation defines h ?"
+    },
+    {
+      "question_id": "test7_math_m2_q23",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "The linear function g is defined by g x\nb\nx\n=\n−15\n( )\n,\n\nwhere b is a constant. If g c\nc\n+ 7 = 4\n(\n)\n, where c is a\n\nconstant, which of the following expressions\n\nrepresents the value of b ?"
+    },
+    {
+      "question_id": "test7_math_m2_q25",
+      "reason": "single_char_lines (6 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "circles",
+      "question_type": "multiple_choice",
+      "question": "x\nx\ny\ny\n+ 14 +\n= 6 + 109\n2\n2\n\nIn the xy-plane, the graph of the given equation is a\ncircle. What is the length of the circle’s radius?"
+    },
+    {
+      "question_id": "test7_math_m2_q27",
+      "reason": "single_char_lines (7 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 7,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "numeric_response",
+      "question": "= −2.5\n\ny\n\n=\n+ 8 +\n2\n\ny\nx\nx\nk\n\nIn the given system of equations, k is a positive\ninteger constant. The system has no real solutions.\nWhat is the least possible value of k ?"
+    },
+    {
+      "question_id": "test8_rw_m1_q9",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 8,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "According to historian Vicki L. Ruiz, Mexican\nAmerican women made crucial contributions to the\nlabor movement during World War II. At the time,\nfood processing companies entered into contracts to\nsupply United States armed forces with canned\ngoods. Increased production quotas conferred\ngreater bargaining power on the companies’\nemployees, many of whom were Mexican American\nwomen: Start referenced Content: employees insisted on more favorable benefits, and employers, who were anxious to fulfill the contracts, complied. End referenced Content.\nStart referenced Content: employees insisted on more favorable benefits, and employers, who were anxious to fulfill the contracts, complied. End referenced Content.\nStart referenced Content: employees insisted on more favorable benefits, and employers, who were anxious to fulfill the contracts, complied. End referenced Content.Thus, labor activism became\na platform for Mexican American women to assert\ntheir agency.\n\nWhich choice best describes the function of the\nunderlined portion in the text as a whole?"
+    },
+    {
+      "question_id": "test8_rw_m2_q9",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 8,
+      "section": "reading",
+      "topic": "command_of_evidence",
+      "question_type": "multiple_choice",
+      "question": "Text 1\nEcologists have long wondered how thousands of\nmicroscopic phytoplankton species can live together\nnear ocean surfaces competing for the same\nresources. According to Start referenced Content:conventional wisdom End referenced Content. , one\nspecies should emerge after outcompeting the rest.\nSo why do so many species remain? Ecologists’ many\nefforts to explain this phenomenon still haven’t\nuncovered a satisfactory explanation.\n\nText 2\nEcologist Michael Behrenfeld and colleagues have\nconnected phytoplankton’s diversity to their\nmicroscopic size. Because these organisms are so\ntiny, they are spaced relatively far apart from each\nother in ocean water and, moreover, experience that\nwater as a relatively dense substance. This in turn\nmakes it hard for them to move around and interact\nwith one another. Therefore, says Behrenfeld’s team,\ndirect competition among phytoplankton probably\nhappens much less than previously thought.\n\nBased on the texts, how would Behrenfeld and\ncolleagues (Text 2) most likely respond to the\n“conventional wisdom” discussed in Text 1?"
+    },
+    {
+      "question_id": "test8_math_m1_q3",
+      "reason": "single_char_lines (10 lines); ocr_artifacts (separator run)",
+      "reasons": [
+        "single_char_lines",
+        "ocr_artifacts"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": ". \nI\n\ny\n\n114\n\n11,\n\nI\n\nI \n110\n\nI s / \ny \n........ 6 \nl \nl \nf 1 \n1\n\nI\n\nX \n246810\n\n-10 -8 -6 -4 -2 V\n\nWhat is the y-intercept of the graph shown?"
+    },
+    {
+      "question_id": "test8_math_m1_q4",
+      "reason": "single_char_lines (8 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "Which expression is equivalent to\n\nx\nx\nx\nx\n2\n+\n−9 +\n+ 6 + 1\n2\n2\n(\n)\n(\n) ?"
+    },
+    {
+      "question_id": "test8_math_m1_q12",
+      "reason": "broken_choices (garbled choice)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "statistics",
+      "question_type": "multiple_choice",
+      "question": "A model predicts that the population of Bergen was\n15,000 in 2005. The model also predicts that each\nyear for the next 5 years, the population p increased\nby 4% of the previous year’s population. Which\nequation best represents this model, where x is the\nnumber of years after 2005, for x ≤5 ?"
+    },
+    {
+      "question_id": "test8_math_m1_q13",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "numeric_response",
+      "question": "a\nb\na\nb\n2 + 8\n= 198\n2 + 4\n= 98\n\nThe solution to the given system of equations is\n\na b\n,\n(\n). What is the value of b ?"
+    },
+    {
+      "question_id": "test8_math_m1_q14",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "numeric_response",
+      "question": "The expression\ny\ny\n90\n−54\n5\n4 is equivalent to\n\nry\ny\n15 −9\n4(\n), where r is a constant. What is the value\n\nof r ?"
+    },
+    {
+      "question_id": "test8_math_m1_q15",
+      "reason": "excessive_line_breaks (46 newlines); isolated_operators (3 lines); single_char_lines (8 lines); malformed_equation (operator run)",
+      "reasons": [
+        "excessive_line_breaks",
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "I 14\n\n12 \n10 \n\\ $\n\n\\~ \n,4 \n..-... \n,2 \nV ' \n8-.=6-.=4-.=2_~ >- _ z_ /4-_6 _ \\8-\n\nX\n\n4, \nI/ \n, \n6 I'-.,,, \n8\n\nI 19 \nI 12 \nI 1~ \n. 16\n\nThe graph of y\nf x\n= ( ) is shown, where the\n\nfunction f is defined by f x\nax\nbx\ncx\nd\n( ) =\n+\n+\n+\n3\n2\n\nand a, b, c, and d are constants. For how many\n\nvalues of x does f x = 0\n( )\n?"
+    },
+    {
+      "question_id": "test8_math_m1_q16",
+      "reason": "broken_choices (garbled choice)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": "The area A, in square centimeters, of a rectangular\ncutting board can be represented by the expression\nw w + 9\n(\n), where w is the width, in centimeters, of\nthe cutting board. Which expression represents the\nlength, in centimeters, of the cutting board?"
+    },
+    {
+      "question_id": "test8_math_m1_q17",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "p\nk\nj\n= 4 + 9\n\nThe given equation relates the distinct positive\nnumbers p, k, and j. Which equation correctly\nexpresses j4 + 9 in terms of p and k ?"
+    },
+    {
+      "question_id": "test8_math_m1_q19",
+      "reason": "single_char_lines (4 lines); ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "single_char_lines",
+        "ocr_artifacts"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "trigonometry",
+      "question_type": "multiple_choice",
+      "question": "The measure of angle R is\nπ\n2\n\n3 radians. The measure\n\nof angle T is\nπ\n5\n12 radians greater than the measure of\n\nangle R. What is the measure of angle T, in Start referenced Content:degrees End referenced Content?"
+    },
+    {
+      "question_id": "test8_math_m1_q20",
+      "reason": "single_char_lines (5 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "numeric_response",
+      "question": "y\nx\nx\n=\n−14 + 22\n2\n\nThe given equation relates the variables x and y.\nFor what value of x does the value of y reach its\nminimum?"
+    },
+    {
+      "question_id": "test8_math_m1_q22",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "y\nx\ny\nx\n≤\n+ 7\n≥−2 −1\n\nWhich point x y\n( , ) is a solution to the given system\nof inequalities in the xy-plane?"
+    },
+    {
+      "question_id": "test8_math_m1_q23",
+      "reason": "single_char_lines (5 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "statistics",
+      "question_type": "multiple_choice",
+      "question": "Weight (pounds) Frequency\n\n13\n12\n14\n8\n15\n5\n16\n7\n17\n9\n18\n10\n19\n13\n20\n7\n\nThe frequency table summarizes a data set of the\nweights, rounded to the nearest pound, of\n71 tortoises. A weight of 39 pounds is added to the\noriginal data set, creating a new data set of the\nweights, rounded to the nearest pound, of\n72 tortoises. Which statement best compares the\nmean and median of the new data set to the mean\nand median of the original data set?"
+    },
+    {
+      "question_id": "test8_math_m1_q24",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "x\nx\na x\n−29 =\n−\n−29\n(\n)(\n)\n\nWhich of the following are solutions to the given\nequation, where a is a constant and a > 30 ?\n\nI. a\n\nII. a + 1\n\nIII. 29"
+    },
+    {
+      "question_id": "test8_math_m1_q25",
+      "reason": "single_char_lines (6 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "In the xy-plane, the graph of the equation\n\ny\nx\nx\n= −\n+ 9 −100\n2\nintersects the line y\nc\n=\nat\n\nexactly one point. What is the value of c?"
+    },
+    {
+      "question_id": "test8_math_m2_q5",
+      "reason": "broken_choices (duplicate choices)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": "a\n\nb \nNote: Figure not drawn to scale.\n\nFor the right triangle shown, a = 4 and b = 5.\nWhich expression represents the value of c ?"
+    },
+    {
+      "question_id": "test8_math_m2_q8",
+      "reason": "broken_choices (garbled choice)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "The function f is defined by f x\nx\n= 1\n\n10\n−2\n( )\n. What\n\nis the y-intercept of the graph of y\nf x\n= ( ) in the\n\nxy-plane?"
+    },
+    {
+      "question_id": "test8_math_m2_q11",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "y\nx\n= −3\nx\ny\n4 +\n= 15\n\nThe solution to the given system of equations\nis x y\n( , ). What is the value of x ?"
+    },
+    {
+      "question_id": "test8_math_m2_q16",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "If\nx\nx\n9 4 −3\n+ 2 = 8 4 −3\n+ 18\n(\n)\n(\n)\n, what is the value\nof\nx\n4 −3\n?"
+    },
+    {
+      "question_id": "test8_math_m2_q19",
+      "reason": "excessive_line_breaks (45 newlines); single_char_lines (14 lines)",
+      "reasons": [
+        "excessive_line_breaks",
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "statistics",
+      "question_type": "multiple_choice",
+      "question": "The dot plots represent the distributions of values in\ndata sets A and B.\n\nData Set A \nData Set B \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• • • • • \n• • • \n• • • \n• • • • • • • \n• • • • • • • \nI \nI \nI \nI \nI \nI \nI \nI \nI \nI \nI \nI \nI \nI \n10 11 12 13 14 15 16 \n10 11 12 13 14 15 16 \nValue \nValue\n\nWhich of the following statements must be true?\n\nI. The median of data set A is equal to the\nmedian of data set B.\n\nII. The standard deviation of data set A\nis equal to the standard deviation of\ndata set B."
+    },
+    {
+      "question_id": "test8_math_m2_q22",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "circles",
+      "question_type": "multiple_choice",
+      "question": "A cube has an edge length of 68 inches. A solid\nsphere with a radius of 34 inches is inside the cube,\nsuch that the sphere touches the center of each face\nof the cube. To the nearest cubic inch, what is the\nvolume of the space in the cubeStart referenced Content: not End referenced Content aken up by the\nsphere?"
+    },
+    {
+      "question_id": "test8_math_m2_q24",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": "Triangles PQR and LMN are graphed in the\nxy-plane. Triangle PQR has vertices P, Q, and R at\n(4, 5), (4, 7), and (6, 5), respectively. Triangle LMN\n\nhas vertices L, M, and N at (4, 5),\nk\n(4, 7 + ),\nand\nk\n(6 + , 5), respectively, where k is a positive\nconstant. If the measure of\nQ\n∠\nis t°, what is the\nmeasure of\nN\n∠\n?"
+    },
+    {
+      "question_id": "test8_math_m2_q25",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "x\ny\n2 + 3\n= 7\nx\ny\n10 + 15\n= 35\n\nFor each real number r, which of the following\npoints lies on the graph of each equation in the\nxy-plane for the given system?"
+    },
+    {
+      "question_id": "test8_math_m2_q26",
+      "reason": "isolated_operators (3 lines); single_char_lines (15 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 8,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "+ 39\n2\n\n2\n\nx\n\nc\n\n=\n\n2\n2\n\n2\n2\n\nx\nc\n\nx\nc\n−\n\n−\n\nIn the given equation, c is a positive constant. Which\nof the following is one of the solutions to the given\nequation?"
+    },
+    {
+      "question_id": "test9_rw_m1_q1",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 9,
+      "section": "reading",
+      "topic": "words_in_context",
+      "question_type": "multiple_choice",
+      "question": "The following text is adapted from Ida B. Wells’s\n1970 autobiography A Crusade for Justice. Mr. Watts\nis a reference to George Frederic Watts, an English\npainter.\n\n[Manchester’s] art galleries are so arranged End referenced content hat\nthe name of every picture is plainly seen and one\nhas no need of a catalogue to pick out the name\nand the artist. This is a convenience to the\ngeneral public, which other art galleries, which\nshall be nameless, might copy to advantage. To\nher treasure of art Manchester has added\nMr. Watts’ latest picture, the Good Samaritan.\n©1970 by the University of Chicago Press\n\nAs used in the text, what does the word “arranged”\nmost nearly mean?"
+    },
+    {
+      "question_id": "test9_rw_m1_q6",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 9,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "To trans\nform the story into a play, Yamauchi created situations where characters reveal their thoughts by speaking them aloud during conversations with each other. End referenced content\n\n[Uncle Katsuhisa] wa\ns as loud as my father was quite. End referenced contentEven when he wasn’t talking, he made a lot\nof noise, clearing his throat and sniffing and\ntapping his fingers.\n©2004 by Cynthia Kadohata\n\nWhich choice best describes the function of the\nunderlined sentence?"
+    },
+    {
+      "question_id": "test9_rw_m1_q7",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 9,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "Wakako Yamauchi is best known for And the Soul\nShall Dance, her 1977 play about a Japanese\nAmerican family in Southern California. The play is\nbased on a short story Yamauchi had published\nthree years earlier. Adapting the story wasn’t easy.\nTheater relies on dialogue between characters, but\nthe original story features little dialogue and instead\ndescribes its characters’ silent thoughts. Start refere\nnced content: To transform the story into a play, \nYamauchi created situations where characters revea\nl their thoughts by speaking them aloud during conversations with each other. End referenced content\n\nWhich choice best describes the function of the\nunderlined sentence in the text as a whole?"
+    },
+    {
+      "question_id": "test9_rw_m1_q8",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 9,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "In response to concerns that some recent financial\ncrises were exacerbated by consumers\nmisunderstanding risks associated with credit cards,\nloans, and other financial products, policymakers in\nmany countries have instituted risk-disclosure\nrequirements on sellers of those products. Enrique\nSeira et al. investigated a variety of risk-disclosure\nmessages sent to thousands of credit card customers\nand found that the messages had only small and\nshort-lived effects on behavior. Seira et al. asserted\nthat such effects may nevertheless be worth pursuing,\n given the negligible cost of messaging. End referenced content\n\nWhich choice best describes the function of the\nunderlined portion in the text as a whole?"
+    },
+    {
+      "question_id": "test9_rw_m2_q6",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 9,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "Oral histories—whether they consist of interviews\nor recordings of songs and stories—can offer\nresearchers a rich view of people’s everyday\nexperiences. For her book about coal mining\ncommunities in Kentucky during the twentieth\ncentury, Karida Brown therefore relied in part on\ninterviews with coal miners and their families. St\nart referenced content: By doing so, she gained\n valuable insights into her subjects’ day-to-day lives. End referenced content\n\nWhich choice best describes the function of the\nunderlined sentence in the text as a whole?"
+    },
+    {
+      "question_id": "test9_rw_m2_q8",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 9,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "The following text is from Edith Wharton’s 1905\nnovel The House of Mirth. Lily Bart and a companion\nare walking through a park.\n\nLily had no real intimacy with nature, but she\nhad a passion for the appropriate and could be\nkeenly sensitive to a scene which was the fitting\nbackground of her own sensations. Sta\nrt referenced content: The landscape ou\ntspread below her seemed an enlargement of her\n present mood, and she found something of herself \nin its calmness, its breadth, its long free reaches. End referenced contentOn the nearer slopes the\nsugar-maples wavered like pyres of light; lower\ndown was a massing of grey orchards, and here\nand there the lingering green of an oak-grove.\n\nWhich choice best describes the function of the\nunderlined sentence in the text as a whole?"
+    },
+    {
+      "question_id": "test9_rw_m2_q9",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 9,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "Individual elephants \nand Arctic herbivores such as caribou tend to h\nave fixed geographic ranges throughout their lifetimes, End referenced contentwhich had prompted\nsome researchers to speculate that the Arctic woolly\nmammoth, an extinct elephantid, might have\nexhibited similar behavior. Mammoth tusks grew in\nsequential layers, incorporating ingested minerals\nand organics, and so each ivory stratum reflects the\nratio of strontium isotopes (87Sr/86Sr) in the local\nenvironment; thus, the sequence of strata shows\nwhere the animal roamed during life. Recent analysis\nof the strontium ratios in the strata of one Arctic\nwoolly mammoth tusk in relation to the geographic\ndistribution of strontium ratios in the environment\nshows the animal’s range begin to expand as it\nreached sexual maturity, only to contract again in its\nfinal 1.5 years.\n\nWhich choice best describes the function of the\nunderlined statement in the text as a whole?"
+    },
+    {
+      "question_id": "test9_math_m1_q4",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "The function g is defined by g x\nx\n=\n+ 9\n2\n( )\n. For\n\nwhich value of x is g x = 25\n( )\n?"
+    },
+    {
+      "question_id": "test9_math_m1_q5",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "Which expression is equivalent to x\nx\n9\n+ 5\n2\n?"
+    },
+    {
+      "question_id": "test9_math_m1_q10",
+      "reason": "broken_choices (duplicate choices)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "y\npx\n−57 =\n\nThe given equation relates the positive numbers p, x,\nand y. Which equation correctly expresses y in terms\nof p and x ?"
+    },
+    {
+      "question_id": "test9_math_m1_q11",
+      "reason": "broken_choices (garbled choice)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "exponents",
+      "question_type": "multiple_choice",
+      "question": "A company opens an account with an initial balance\nof $36,100.00. The account earns interest, and no\nadditional deposits or withdrawals are made. The\naccount balance is given by an exponential\nfunction A, where A t( ) is the account balance, in\ndollars, t years after the account is opened. The\naccount balance after 13 years is $68,071.93. Which\nequation could define A ?"
+    },
+    {
+      "question_id": "test9_math_m1_q13",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "numeric_response",
+      "question": "y\nx\nx\ny\n= −2\n3 +\n= 40\n\nThe solution to the given system of equations is\n\nx y\n,\n(\n). What is the value of x ?"
+    },
+    {
+      "question_id": "test9_math_m1_q14",
+      "reason": "single_char_lines (12 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "statistics",
+      "question_type": "numeric_response",
+      "question": "Data value Frequency\n\n6\n3\n7\n3\n8\n8\n9\n8\n10\n9\n11\n11\n12\n9\n13\n0\n14\n6\n\nThe frequency table summarizes the 57 data values in\na data set. What is the maximum data value in the\ndata set?"
+    },
+    {
+      "question_id": "test9_math_m1_q17",
+      "reason": "isolated_operators (2 lines); single_char_lines (5 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "f x\nx\nx\nx\n=\n+ 6\n+ 5\n−4\n( )\n(\n)(\n)(\n)\n\nThe function f is given. Which table of values\nrepresents y\nf x\n=\n−3\n( )\n?"
+    },
+    {
+      "question_id": "test9_math_m1_q18",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "A landscaper uses a hose that puts\nx\n88\nounces of\nwater in a bucket in y\n5\nminutes. Which expression\nrepresents the number of ounces of water the hose\nputs in the bucket in y\n9\nminutes at this rate?"
+    },
+    {
+      "question_id": "test9_math_m1_q19",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": "x\ny\ny\nhy\nx\n4 −9\n= 9 + 5\n= 2 + 4\n\nIn the given system of equations, h is a constant. If\nthe system has no solution, what is the value of h ?"
+    },
+    {
+      "question_id": "test9_math_m1_q21",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "numeric_response",
+      "question": "x\nx\n( −2)\n=\n3 + 34\n2\n\nWhat is the smallest solution to the given equation?"
+    },
+    {
+      "question_id": "test9_math_m1_q22",
+      "reason": "isolated_operators (5 lines); single_char_lines (10 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "Function f is defined by\n\nf x\nx\nx\nx\n=\n+ 6\n+ 5\n+ 1\n( )\n(\n)(\n)(\n). Function g is defined\nby g x\nf x\n=\n−1\n( )\n(\n). The graph of y\ng x\n=\n( ) in the\nxy-plane has x-intercepts at a, 0\n(\n), b, 0\n(\n), and c, 0\n(\n),\nwhere a, b, and c are distinct constants. What is the\nvalue of a\nb\nc\n+\n+\n?"
+    },
+    {
+      "question_id": "test9_math_m1_q24",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "f x\nx\nx\n= 4\n+ 64 + 262\n2\n( )\n\nThe function g is defined by g x\nf x\n=\n+ 5\n( )\n(\n). For\nwhat value of x does g x\n( ) reach its minimum?"
+    },
+    {
+      "question_id": "test9_math_m1_q25",
+      "reason": "broken_choices (duplicate choices)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "One gallon of stain will cover 170 square feet of a\nsurface. A yard has a total fence area of w square feet.\nWhich equation represents the total amount of\nstain S, in gallons, needed to stain the fence in this\nyard twice?"
+    },
+    {
+      "question_id": "test9_math_m2_q4",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "x\n3\n= 12\nx\ny\n−3 +\n= −6\n\nThe solution to the given system of equations\nis x y\n( , ). What is the value of y ?"
+    },
+    {
+      "question_id": "test9_math_m2_q8",
+      "reason": "single_char_lines (6 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "x\ny\n0\n18\n1\n13\n2\n8\n\nThe table shows three values of x and their\ncorresponding values of y. There is a linear\nrelationship between x and y. Which of the\nfollowing equations represents this relationship?"
+    },
+    {
+      "question_id": "test9_math_m2_q9",
+      "reason": "single_char_lines (4 lines); broken_choices (garbled choice)",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "x + 7 = 10\n\nx\ny\n+ 7\n=\n2\n(\n)\n\nWhich ordered pair x y\n,\n(\n) is a solution to the given\nsystem of equations?"
+    },
+    {
+      "question_id": "test9_math_m2_q11",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "exponents",
+      "question_type": "multiple_choice",
+      "question": "Time (years) Total amount (dollars)\n\n0\n604.00\n1\n606.42\n2\n608.84\n\nRosa opened a savings account at a bank. The table\nshows the exponential relationship between the\ntime t, in years, since Rosa opened the account and\nthe total amount n, in dollars, in the account. If Rosa\nmade no additional deposits or withdrawals, which\nof the following equations best represents the\nrelationship between t and n ?"
+    },
+    {
+      "question_id": "test9_math_m2_q13",
+      "reason": "isolated_operators (2 lines); single_char_lines (4 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "numeric_response",
+      "question": "h x\nx\nb\n=\n+\n( )\n\nFor the linear function h, b is a constant and\nh 0 = 45\n( )\n. What is the value of b ?"
+    },
+    {
+      "question_id": "test9_math_m2_q14",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "numeric_response",
+      "question": "z\nz\n+ 10 −24 = 0\n2\n\nWhat is one of the solutions to the given equation?"
+    },
+    {
+      "question_id": "test9_math_m2_q17",
+      "reason": "single_char_lines (7 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "statistics",
+      "question_type": "multiple_choice",
+      "question": "Class A \nClass B \n• \n• \n• • \n• • \n• • • \n• • • \n• • • • \n• • • • \n• • • • • \n• • • • • \n• • • • • \n• • • • • \n• • • • • • • \n• • • • • • • \nI \nI \nI \nI \nI \nI \nI \n1 2 3 4 5 6 7 \n14 15 16 17 18 19 20\n\nEach of the dot plots shown represents the number of\nglue sticks brought in by each student for two classes,\nclass A and class B. Which statement best compares\nthe standard deviations of the numbers of glue sticks\nbrought in by each student for these two classes?"
+    },
+    {
+      "question_id": "test9_math_m2_q18",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "m t\nt\nt\n= –0.0274 7\n+ 7.3873 7\n+ 75.032\n2\n( )\n\nThe function m gives the predicted body mass m t( ),\nin kilograms (kg), of a certain animal t days after it\nwas born in a wildlife reserve, where t ≤390. Which\nof the following is the best interpretation of the\nstatement “m(330) is approximately equal to 362” in\nthis context?"
+    },
+    {
+      "question_id": "test9_math_m2_q19",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": "Triangle XYZ is similar to triangle RST such that X,\nY, and Z correspond to R, S, and T, respectively.\nThe measure of\nZ\n∠\nis 20° and XY\nRS\n2\n=\n. What is\nthe measure of\nT\n∠\n?"
+    },
+    {
+      "question_id": "test9_math_m2_q21",
+      "reason": "isolated_operators (2 lines); single_char_lines (7 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "numeric_response",
+      "question": "The function f is defined by f x\na\nb\n( ) =\n+\nx\n, where a\nand b are constants and a > 0. In the xy-plane, the\ngraph of y\nf x\n= ( ) has a y-intercept at (0, −25) and\npasses through the point (2, 23). What is the value of\na\nb\n+\n?"
+    },
+    {
+      "question_id": "test9_math_m2_q26",
+      "reason": "single_char_lines (11 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 9,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "The function f is defined by f x\na\n( ) =\n2.2 + 2.2\nx\nb\n(\n),\n\nwhere a and b are integer constants and\na\nb\n0 <\n<\n.\n\nThe functions g and h are equivalent to function f,\n\nwhere k and m are constants. Which of the\n\nfollowing equations displays the y-coordinate of the\n\ny-intercept of the graph of y\nf x\n= ( ) in the xy-plane\n\nas a constant or coefficient?\n\nI. g x\na\nk\n( ) =\n(2.2 + )\nx\n\nII. h x\na\nm\n( ) =\n(2.2) +\nx"
+    },
+    {
+      "question_id": "test10_rw_m1_q1",
+      "reason": "ocr_artifacts (separator run)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "words_in_context",
+      "question_type": "multiple_choice",
+      "question": "The general store was essential to daily life in the\nrural United States during the 1800s because it\nprovided the supplies that the people living in nearby\ncommunities needed. Also, the store was a _______\nof information. People socializing at the general store\nwould share news and help spread it throughout\ntheir communities.\n\nWhich choice completes the text with the most\nlogical and precise word or phrase?"
+    },
+    {
+      "question_id": "test10_rw_m1_q2",
+      "reason": "ocr_artifacts (separator run)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "words_in_context",
+      "question_type": "multiple_choice",
+      "question": "For painter Jacob Lawrence, being _______ was an\nimportant part of the artistic process. Because he\npaid close attention to all the details of his Harlem\nneighborhood, Lawrence’s artwork captured nuances\nin the beauty and vitality of the Black experience\nduring the Harlem Renaissance and the\nGreat Migration.\n\nWhich choice completes the text with the most\nlogical and precise word or phrase?"
+    },
+    {
+      "question_id": "test10_rw_m1_q3",
+      "reason": "ocr_artifacts (separator run)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "words_in_context",
+      "question_type": "multiple_choice",
+      "question": "Former astronaut Ellen Ochoa says that although she\ndoesn’t have a definite idea of when it might happen,\nshe _______ that humans will someday need to be\nable to live in other environments than those found\non Earth. This conjecture informs her interest in\nfuture research missions to the moon.\n\nWhich choice completes the text with the most\nlogical and precise word or phrase?"
+    },
+    {
+      "question_id": "test10_rw_m1_q4",
+      "reason": "ocr_artifacts (separator run)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "words_in_context",
+      "question_type": "multiple_choice",
+      "question": "The parasitic dodder plant increases its reproductive\nsuccess by flowering at the same time as the host\nplant it has latched onto. In 2020, Jianqiang Wu and\nhis colleagues determined that the tiny dodder\nachieves this _______ with its host by absorbing and\nutilizing a protein the host produces when it is about\nto flower.\n\nWhich choice completes the text with the most\nlogical and precise word or phrase?"
+    },
+    {
+      "question_id": "test10_rw_m1_q5",
+      "reason": "ocr_artifacts (separator run)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "words_in_context",
+      "question_type": "multiple_choice",
+      "question": "Barring major archaeological discoveries, we are\nunlikely to ever have _______ account of ancient\nEgypt under the female pharaoh Hatshepsut, as\nmuch of the evidence of her reign was deliberately\ndestroyed by her successors.\n\nWhich choice completes the text with the most\nlogical and precise word or phrase?"
+    },
+    {
+      "question_id": "test10_rw_m1_q8",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "The following text is adapted from Zora Neale\nHurston’s 1921 short story “John Redding Goes to\nSea.” John is a child who lives in a town in the woods.\n\nPerhaps ten-year-old John was puzzling to the\nfolk there in the Florida woods for he was an\nimaginative child and fond of day-dreams. The\nSt. John River flowed a scarce three hundred feet\nfrom his back door. On its banks at this point\ngrow numerous palms, luxuriant magnolias\nand bay trees. On the bosom of the stream\nfloat millions of delicately colored hyacinths.\nStart referenced Content:[John Redding] lo\nved to wander down to the water’s edge, and, c\nasting in dry twigs, watch them sail away down \nstream to Jacksonville, thesea, the wide worl\nd and [he] wanted to follow them. End referenced Content\n\nWhich choice best describes the function of the\nunderlined sentence in the text as a whole?"
+    },
+    {
+      "question_id": "test10_rw_m1_q9",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "Astronomers are confident that the star Betelgeuse\nwill eventually consume all the helium in its core and\nexplode in a supernova. Start referenced C\nontent:They are much less confident, however, ab\nout when this will happen, since that depends on \ninternal characteristics of Betelgeuse that are largely unknown. End referenced ContentAstrophysicist\nSarafina El-Badry Nance and colleagues recently\ninvestigated whether acoustic waves in the star could\nbe used to determine internal stellar states but\nconcluded that this method could not sufficiently\nreveal Betelgeuse’s internal characteristics to allow its\nevolutionary state to be firmly fixed.\n\nWhich choice best describes the function of the\nsecond sentence in the overall structure of the text?"
+    },
+    {
+      "question_id": "test10_rw_m1_q17",
+      "reason": "excessive_line_breaks (82 newlines); single_char_lines (6 lines)",
+      "reasons": [
+        "excessive_line_breaks",
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "inferences",
+      "question_type": "multiple_choice",
+      "question": "Average Survival of Fruit Flies\n\nfollowing Infection\n\n110 \n100 \n1\n\n-\n• ..,.., J \n---:i \n\\ \n-~\n\n90\n\n80\n\n') .\n\n\")\"\\\n\n70\n\n... ,\n\nQ) \n60 \n.....\n\nCl$ \n50 \n'\"' \n40 \n> .E \n30 \n;:I \n20 \nen\n\n\\~ .· ., \n._, \n._,\n\n•\\ \n•• r\"I \n0-:::-. .... \n0 \n2 \n6 \n10\n\n10\n\n0\n\nDays after infection\n\ntype A flies\ntype AB flies\ntype B flies\n\n- -tJ- -\n···O··\n\nIn a study of the evolution of DptA and\nDptB—Diptericin genes encoding antimicrobial\npeptides that combat pathogens and foster beneficial\nmicrobes in fruit flies (Drosophila)—researchers\nassessed Drosophila melanogaster resistance to\npathogenic infections by Providencia rettgeri and\nAcetobacter sicerae, bacteria common in the flies’\nenvironments. Subjects included flies identified by\nmutations silencing DptA, DptB, or both DptA and\nDptB (termed types A, B, and AB, respectively). In\nconjunction with the observation that resistance to\nP. rettgeri correlates with DptA activity but is not\nsignificantly affected by DptB activity, data in the\ngraph of survival rates post–A. sicerae infection\nsuggest thatblank\n\nWhich completion of the text is best supported by\ndata in the graph?"
+    },
+    {
+      "question_id": "test10_rw_m2_q8",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "The following text is from Charlotte Forten Grimké’s\n1888 poem “At Newport.”\n\nOh, deep delight to watch the gladsome waves\nExultant leap upon the rugged rocks;\nStart referenced Content: Ever repu\nlsed, yet ever rushing on— Filled with a life that will not know defeat; End referenced Content\nTo see the glorious hues of sky and sea.\nThe distant snowy sails, glide spirit like,\nInto an unknown world, to feel the sweet\nEnchantment of the sea thrill all the soul,\nClearing the clouded brain, making the heart\nLeap joyous as it own bright, singing waves!\n\nWhich choice best describes the function of the\nunderlined portion in the text as a whole?"
+    },
+    {
+      "question_id": "test10_rw_m2_q12",
+      "reason": "single_char_lines (7 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "command_of_evidence",
+      "question_type": "multiple_choice",
+      "question": "Number and Origin of Clamshell Tools Found at Different\nLevels Below the Surface in Neanderthal Cave\nDepth of tools found below Clamshells that Neanderthals Clamshells that Neanderthals\n\nsurface in cave (meters)\ncollected from the beach\nharvested from the seafloor\n3–4\n99\n33\n6–7\n1\n0\n4–5\n2\n0\n2–3\n7\n0\n5–6\n18\n7\n\nStudying tools unearthed at a cave site on the western coast of Italy,\narchaeologist Paola Villa and colleagues have determined that\nprehistoric Neanderthal groups fashioned them from shells of clams\nthat they harvested from the seafloor while wading or diving or that\nwashed up on the beach. Clamshells become thin and eroded as they\nwash up on the beach, while those on the seafloor are smooth and\nsturdy, so the research team suspects that Neanderthals prized the tools\nmade with seafloor shells. However, the team also concluded that those\ntools were likely more challenging to obtain, noting that [BLANK]\n\nWhich choice most effectively uses data from the table to support the\nresearch team’s conclusion?"
+    },
+    {
+      "question_id": "test10_rw_m2_q13",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "command_of_evidence",
+      "question_type": "multiple_choice",
+      "question": "Power Conversion Efficiency of \nLowest and Highest Performing\n\nSpin-coated and Spray-coated\n\n8 \n6 \n4 \n2 o~-~-\n\nThickness \nI spray coating spin coating\n\nPerovskite solar cells convert light into electricity\nmore efficiently than earlier kinds of solar cells, and\nmanufacturing advances have recently made them\ncommercially attractive. One limitation of the cells,\nhowever, has to do with their electron transport layer\n(ETL), through which absorbed electrons must pass.\nOften the ETL is applied through a process called\nspin coating, but such ETLs are fairly inefficient\nat converting input power to output power.\nAndré Taylor and colleagues tested a novel spray\ncoating method for applying the ETL. The team\nproduced ETLs of various thicknesses and concluded\nthat spray coating holds promise for improving the\npower conversion efficiency of ETLs in perovskite\nsolar cells.\n\nWhich choice best describes data from the graph that\nsupport Taylor and colleagues’ conclusion?"
+    },
+    {
+      "question_id": "test10_rw_m2_q14",
+      "reason": "excessive_line_breaks (53 newlines)",
+      "reasons": [
+        "excessive_line_breaks"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "Employment by Sector in France and the United States, 1800–2012\n(% of total employment)\n\nAgriculture Manufacturing\nServices\nAgriculture Manufacturing Services\nYear\nin France\nin France\nin France\nin US\nin US\nin US\n1800\n64\n22\n14\n68\n18\n13\n1900\n43\n29\n28\n41\n28\n31\n1950\n32\n33\n35\n14\n33\n53\n2012\n3\n21\n76\n2\n18\n80\n\nRows in table may not add up to 100 due to rounding.\n\nOver the past two hundred years, the percentage of the population\nemployed in the agricultural sector has declined in both France and the\nUnited States, while employment in the service sector (which includes\njobs in retail, consulting, real estate, etc.) has risen. However, this\ntransition happened at very different rates in the two countries. This\ncan be seen most clearly by comparing the employment by sector in\nboth countries in [BLANK]\n\nWhich choice most effectively uses data from the table to complete the\nstatement?"
+    },
+    {
+      "question_id": "test10_rw_m2_q30",
+      "reason": "ocr_artifacts (separator run)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 10,
+      "section": "reading",
+      "topic": "transitions",
+      "question_type": "multiple_choice",
+      "question": "Researchers Helena Mihaljević-Brandt, Lucía\nSantamaría, and Marco Tullney report that while\nmathematicians may have traditionally worked\nalone, evidence points to a shift in the opposite\ndirection. _______ mathematicians are choosing to\ncollaborate with their peers—a trend illustrated by a\nrise in the number of mathematics publications\ncredited to multiple authors.\n\nWhich choice completes the text with the most\nlogical transition?"
+    },
+    {
+      "question_id": "test10_math_m1_q1",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "The line graph shows the percent of cars for sale at a\nused car lot on a given day by model year.\n\n15%\n\n' ' ' \\.\n\n\"' '\"' \n.....\n\nI \nI \n'\n\n'\n\nI\n\n5%\n\nr::: \nQ) \nI:! \nQ) \n11..\n\nModel year\n\nFor what model year is the percent of cars for sale the\nsmallest?"
+    },
+    {
+      "question_id": "test10_math_m1_q2",
+      "reason": "single_char_lines (4 lines); broken_choices (garbled choice)",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "y \n.. 6 '\n\ni \n... \n2 \\ \nr,..... \n' \nI\" \n1 \n\\ \n6-5-4-3 ,.._1 u \n1 ' \n·1 \n-~\n\nX \n3 4 5 6 \n\\\n\n' \n..... \\\n\n13 r-..\n\n14 \n' \n15 \n!6\n\nThe graph of a system of linear equations is shown.\nWhat is the solution x y\n,\n(\n) to the system?"
+    },
+    {
+      "question_id": "test10_math_m1_q4",
+      "reason": "single_char_lines (14 lines); broken_choices (keys=['A', 'C'])",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "y\n\n4\\ \nI \nI, \nI\n\n\\ \nj \n\\ \nI \n6 -4 -2 IU , 2 \n4 \n6 \n8 \n10\n\nX\n\n\\.)\n\nf\n\nI \nk\n\nThe graph shown will be translated up 4 units. Which of the following\nwill be the resulting graph?\n\ny \ny"
+    },
+    {
+      "question_id": "test10_math_m1_q6",
+      "reason": "isolated_operators (2 lines); single_char_lines (5 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "numeric_response",
+      "question": "The function f is defined by f x\nx\nx\n=\n+\n+ 71\n2\n( )\n.\n\nWhat is the value of f 2\n( ) ?"
+    },
+    {
+      "question_id": "test10_math_m1_q8",
+      "reason": "single_char_lines (12 lines); broken_choices (keys=['A'])",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "probability",
+      "question_type": "multiple_choice",
+      "question": "The table gives the distribution of votes for a new\nschool mascot and grade level for 80 students.\n\nGrade level\nMascot\nSixth Seventh Eighth Total\nBadger\n 4\n 9\n 9\n22\nLion\n 9\n 2\n 9\n20\nLonghorn\n 4\n 6\n 4\n14\nTiger\n 6\n 9\n 9\n24\nTotal\n23\n26\n31\n80\n\nIf one of these students is selected at random, what is\nthe probability of selecting a student whose vote for\nnew mascot was for a lion?"
+    },
+    {
+      "question_id": "test10_math_m1_q9",
+      "reason": "unusually_short (0 words, 0 chars)",
+      "reasons": [
+        "unusually_short"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": ""
+    },
+    {
+      "question_id": "test10_math_m1_q13",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "numeric_response",
+      "question": "x\ny\nx\ny\n3 + 6 = 4\n3 + 4 = 2\n\nThe solution to the given system of equations is\n\nx y\n,\n(\n). What is the value of y ?"
+    },
+    {
+      "question_id": "test10_math_m1_q14",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "numeric_response",
+      "question": "The function f is defined by\n\nf x\nx\nx\nx\n( ) = ( −6)( −2)( + 6). In the xy-plane, the\ngraph of y\ng x\n=\n( ) is the result of translating the\ngraph of y\nf x\n= ( ) up 4 units. What is the value\nof g(0) ?"
+    },
+    {
+      "question_id": "test10_math_m1_q16",
+      "reason": "broken_choices (garbled choice)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "The number of bacteria in a liquid medium doubles\nevery day. There are 44,000 bacteria in the liquid\nmedium at the start of an observation. Which of the\nfollowing represents the number of bacteria, y, in the\nliquid medium t days after the start of the\nobservation?"
+    },
+    {
+      "question_id": "test10_math_m1_q17",
+      "reason": "single_char_lines (4 lines); broken_choices (garbled choice)",
+      "reasons": [
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "exponents",
+      "question_type": "multiple_choice",
+      "question": "x\nh left parenthesis x right parenthesis\n0\n1.23\n2\n1.54\n4\n1.94\n\nThe table shows the exponential relationship\nbetween the number of years, x, since Hana started\ntraining in pole vault, and the estimated height h x\n( ),\nin meters, of her best pole vault for that year. Which\nof the following functions best represents this\nrelationship, where x ≤4 ?"
+    },
+    {
+      "question_id": "test10_math_m1_q18",
+      "reason": "isolated_operators (2 lines); single_char_lines (5 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "The function h is defined by h x\nx\n= 4 + 28\n( )\n. The\ngraph of y\nh x\n=\n( ) in the xy-plane has an x-intercept\nat a\n( , 0) and a y-intercept at\nb\n(0, ), where a and b\nare constants. What is the value of a\nb\n+\n?"
+    },
+    {
+      "question_id": "test10_math_m1_q20",
+      "reason": "single_char_lines (7 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "numeric_response",
+      "question": "y\nx\ny\nx\n= 4 + 1\n4\n= 15 −8\n\nThe solution to the given system of equations is\n\nx y\n( , ). What is the value of x\ny\n−\n?"
+    },
+    {
+      "question_id": "test10_math_m2_q1",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "An object’s speed is 64 yards per second. What is the\nobject’s speed, inStart referenced Content:feet End referenced Content per second? (1 yard = 3 feet)"
+    },
+    {
+      "question_id": "test10_math_m2_q2",
+      "reason": "excessive_line_breaks (43 newlines); single_char_lines (12 lines)",
+      "reasons": [
+        "excessive_line_breaks",
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "The scatterplot shows the relationship between\ntwo variables, x and y. A line of best fit is also\nshown.\n\ny\n\n20 \n18 \n16 \n14 \n12 \n10\n\na/'\n\nI V \n/ \n.,,,; (' \n./, \n./, \n/'\n\n8\n\n6\n\n,\n\n4 \n2\n\nu\n\nX \n2 \n4 \n6 \n8 \n10 \n12 \n14\n\nWhich of the following equations best represents the\nline of best fit shown?"
+    },
+    {
+      "question_id": "test10_math_m2_q3",
+      "reason": "single_char_lines (16 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "y\n\nI ,\n\n1p\n\n8 \nI \n6 \nI \n4 \nI \n2 \nI \nI \n8_.=6-.=4-.=2 IU 2\n\nI \n' ,\n\nI \nJ ,\n\n, 4 _ _ 6_ _8_\n\nX\n\nJ ,\n\nI \n4 ' \nI \nI \nI, \n\"'\n\nThe graph shows the linear relationship between x\nand y. Which table gives three values of x and their\ncorresponding values of y for this relationship?"
+    },
+    {
+      "question_id": "test10_math_m2_q5",
+      "reason": "single_char_lines (5 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "m\nn\np\n7\n= 2\n+\n(\n)\n\nThe given equation relates the positive numbers m,\nn, and p. Which equation correctly gives m in terms\nof n and p ?"
+    },
+    {
+      "question_id": "test10_math_m2_q10",
+      "reason": "single_char_lines (5 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "= 76\n\ny\n\n=\n−5\n2\n\ny\nx\n\nThe graphs of the given equations in the xy-plane\nintersect at the point x y\n( , ). What is a possible value\nof x ?"
+    },
+    {
+      "question_id": "test10_math_m2_q16",
+      "reason": "single_char_lines (5 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "y\n\n50\n\n40\n\ni::Q \n\\. \ng 30\n\n\\\n\n0.. s \no \n20 \nu\n\n\\\n\n\\\n\n\\\n\n10\n\nI\\\n\n'~ \n10 20 30 40 50 6 ) 70 80 90 100\n\nu\n\nX\n\nCompany A\n\nThe graph shows the relationship between the\nnumber of shares of stock from Company A, x, and\nthe number of shares of stock from Company B, y,\nthat Simone can purchase. Which equation could\nrepresent this relationship?"
+    },
+    {
+      "question_id": "test10_math_m2_q18",
+      "reason": "broken_choices (garbled choice)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "The function f is defined by f x = −8 2\n+ 22\nx\n( )\n(\n)( )\n.\nWhat is the y-intercept of the graph of y\nf x\n= ( ) in\nthe xy-plane?"
+    },
+    {
+      "question_id": "test10_math_m2_q20",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "circles",
+      "question_type": "numeric_response",
+      "question": "A circle in the xy-plane has a diameter with\n\nendpoints 2, 4\n(\n) and 2, 14\n(\n). An equation of this\n\ncircle is x\ny\nr\n( −2) + ( −9) =\n2\n2\n2, where r is a positive\n\nconstant. What is the value of r ?"
+    },
+    {
+      "question_id": "test10_math_m2_q24",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "x\nx\nc\n−9\n+ 30 +\n= 0\n2\n\nIn the given equation, c is a constant. The equation\nhas exactly one solution. What is the value of c ?"
+    },
+    {
+      "question_id": "test10_math_m2_q26",
+      "reason": "single_char_lines (6 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 10,
+      "section": "math",
+      "topic": "statistics",
+      "question_type": "multiple_choice",
+      "question": "Data Set A\n\n12\n\n10\n\n8 \ng. 6\n\n4-+-~--t \nµ.\n\n4 \nµ.\n\n2 \n0-+--+---+---+---+---+\n\n2 \n0\n\nI \n10 20 30 40 50 60\n\n10 20 30 40 50 60\n\nInteger\n\nInteger\n\nTwo data sets of 23 integers each are summarized in\nthe histograms shown. For each of the histograms,\nthe first interval represents the frequency of integers\ngreater than or equal to 10, but less than 20. The\nsecond interval represents the frequency of integers\ngreater than or equal to 20, but less than 30, and so\non. What is the smallest possible difference between\nthe mean of data set A and the mean of data set B?"
+    },
+    {
+      "question_id": "test11_rw_m1_q6",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 11,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "The following text is adapted from Akwaeke Emezi’s \n2019 novel Pet. Jam is a teenager who lives with her \nfather, Aloe, and her mother, Bitter, who is a painter.\n\nBitter finished the painting in the dark morning\n\nof a day—it was well past midnight when Jam \nheard the studio door creak open. She stared \ninto the velvet black of her room and listened to \nher mother’s footsteps walking in her [mother] \nand Aloe’s bedroom. There was a weight \nthrumming through the floorboards in a low \nsong, and that was how Jam knew the painting \nwas done. Start referenced Content: Bitter’s feet were singing the news. End referenced Content\n\n©2019 by Akwaeke Emezi\n\nWhich choice best states the function of the\n\nunderlined sentence in the text as a whole?"
+    },
+    {
+      "question_id": "test11_rw_m1_q8",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 11,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "Curious about how people visually perceive objects \nin their dreams, Stephen LaBerge and team recruited \nlucid dreamers—people aware that they’re dreaming \nas it’s happening—for a research study. These \nparticipants were reliably able to signal when they \nhad entered a dream state; the team then observed \nparticipants’ eye movements as they slept. Start referenced Content:The smoothness with which participants’ eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them, End referenced ContentStart referenced Content:The smoothness with which participants’ eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them, End referenced Content\nStart referenced Content:The smoothness with which participants’ eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them, End referenced ContentStart referenced Content:The smoothness with which participants’ eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them, End referenced Content\nStart referenced Content:The smoothness with which participants’ eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them, End referenced ContentStart referenced Content:The smoothness with which participants’ eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them, End referenced ContentStart referenced Content:The smoothness with which participants’ eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them, End referenced Content\nStart referenced Content:The smoothness with which participants’ eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them, End referenced ContentStart referenced Content:The smoothness with which participants’ eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them, End referenced Content\nStart referenced Content:The smoothness with which participants’ eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them, End referenced Content suggesting to the team that the brain perceives \ndream objects as the product of something other \nthan pure imagination.\n\nWhich choice best states the function of the\n\nunderlined portion in the text as a whole?"
+    },
+    {
+      "question_id": "test11_rw_m1_q9",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 11,
+      "section": "reading",
+      "topic": "command_of_evidence",
+      "question_type": "multiple_choice",
+      "question": "Text 1\n\nGood art often challenges and disrupts social \nand aesthetic norms, but the creation of public \nart—paintings, sculptures, and performance pieces \ndisplayed in nonmuseum or nontheatrical public \nsettings—typically requires broad agreement among \nartists, civic officials, and community members \nabout the works’ message and artistic goals. \nStart referenced Content: Public art that fails to appease everyone by being sufficiently aesthetically and conceptually bland almost inevitably provokes backlash. End referenced ContentStart referenced Content: Public art that fails to appease everyone by being sufficiently aesthetically and conceptually bland almost inevitably provokes backlash. End referenced Content\n\nStart referenced Content: Public art that fails to appease everyone by being sufficiently aesthetically and conceptually bland almost inevitably provokes backlash. End referenced ContentStart referenced Content: Public art that fails to appease everyone by being sufficiently aesthetically and conceptually bland almost inevitably provokes backlash. End referenced Content\nStart referenced Content: Public art that fails to appease everyone by being sufficiently aesthetically and conceptually bland almost inevitably provokes backlash. End referenced Content\n\nText 2\nPublic art is commonly displayed in spaces intended \nfor purposes other than meaningful aesthetic \nengagement. Some critics of public art therefore \nnote that norm-defying pieces that aren’t effectively \nintegrated within their surroundings in a manner \nthat primes passersby to appreciate the pieces’ \nmerits (as is often the case) tend to be regarded \nmore unfavorably than similarly provocative art \nencountered in museums is.\n\nBased on the texts, how would the critics mentioned \nin Text 2 most likely respond to the underlined claim \nin Text 1?"
+    },
+    {
+      "question_id": "test11_rw_m2_q5",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 11,
+      "section": "reading",
+      "topic": "words_in_context",
+      "question_type": "multiple_choice",
+      "question": "The following text is from a 1955 translation of \nSamuel Beckett’s 1951 novel Molloy (translated by \nthe author and Patrick Bowles). In the text, Molloy \nhas arrived at the town ramparts, an elevated \nwalkway atop the city walls.\n\nAnd having cleared the ramparts I had to \nconfess the sky was clearing, prior to its winding \nin the other shroud, night. Yes, the great cloud \nwas ravelling, discovering here and there a pale \nand dying sky, and the sun, already down, was \nStart referenced Content: manifest End referenced Content in the livid tongues of fire darting \ntowards the zenith, falling and darting again, \never more pale and languid, and doomed no \nsooner lit to be extinguished.\n\n©1955 by Grove Press, Inc.\n\nAs used in the text, what does the word “manifest” \nmost nearly mean?"
+    },
+    {
+      "question_id": "test11_rw_m2_q6",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 11,
+      "section": "reading",
+      "topic": "text_structure",
+      "question_type": "multiple_choice",
+      "question": "In the past, historians who wanted to examine \nFrederick Douglass’s diary and other personal papers \nhad to visit the Library of Congress in Washington, \nDC, to view them on microfilm Start referenced Content: (film containing scaled-down reproductions of documents). End referenced ContentStart referenced Content: (film containing scaled-down reproductions of documents). End referenced Content\nStart referenced Content: (film containing scaled-down reproductions of documents). End referenced ContentStart referenced Content: (film containing scaled-down reproductions of documents). End referenced Content. But \ntraveling to the library often added time and costs \nto research projects. Now, by going to the library’s \nwebsite, researchers can access digitized versions \nof Douglass’s papers without physically going \nanywhere.\n\nWhich choice best describes the function of the \nunderlined portion in the text as a whole?"
+    },
+    {
+      "question_id": "test11_rw_m2_q15",
+      "reason": "ocr_artifacts (un-normalized marker)",
+      "reasons": [
+        "ocr_artifacts"
+      ],
+      "test": 11,
+      "section": "reading",
+      "topic": "command_of_evidence",
+      "question_type": "multiple_choice",
+      "question": "Olms are salamanders that live in underwater caves. \nScientists once thought that olms stay in their caves \nall their lives. However, Raoul Manenti and team \nclaim that Start referenced Content: olms regularly come to the surface to perform important activities such as finding food. End referenced ContentStart referenced Content: olms regularly come to the surface to perform important activities such as finding food. End referenced ContentStart referenced Content: olms regularly come to the surface to perform important activities such as finding food. End referenced Content\nStart referenced Content: olms regularly come to the surface to perform important activities such as finding food. End referenced Content\n\nWhich finding, if true, would most strongly support \nthe underlined claim?"
+    },
+    {
+      "question_id": "test11_math_m1_q2",
+      "reason": "isolated_operators (2 lines); single_char_lines (5 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "x\n4\n1\n33\n+\n=\n\nWhich equation has the same solution as the given\n\nequation?"
+    },
+    {
+      "question_id": "test11_math_m1_q4",
+      "reason": "single_char_lines (3 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "x\n8\n40\n32\n2 -\n=\n\nWhat is the positive solution to the given equation?"
+    },
+    {
+      "question_id": "test11_math_m1_q7",
+      "reason": "isolated_operators (6 lines); single_char_lines (11 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "numeric_response",
+      "question": "x\ny\n125\n+\n=\nx\ny\ny\n155\n+\n+\n=\n\nThe solution to the given system of equations is\n\n,x y\n^\nh. What is the value of y?"
+    },
+    {
+      "question_id": "test11_math_m1_q8",
+      "reason": "broken_choices (duplicate choices)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "In a chess tournament, each participant earns\n\n1 point for each game the participant plays that ends \nin a draw and 3 points for each game the participant \nwins. A certain participant in this tournament has\n\nearned 41 points. Which equation represents this \nsituation, where d represents the number of games \nthis participant has played that ended in a draw and\n\nw represents the number of games this participant \nhas won?"
+    },
+    {
+      "question_id": "test11_math_m1_q9",
+      "reason": "isolated_operators (3 lines); single_char_lines (4 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "The function g is defined by g x\nx\n300\n=\n+\n^ h\n.\n\nWhat is the value of g x\n^ h when x\n81\n=\n?"
+    },
+    {
+      "question_id": "test11_math_m1_q12",
+      "reason": "isolated_operators (5 lines); single_char_lines (12 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "x\n5\n14\n+\n=\ny\nx\n4\n4\n2\n=\n+\n\nAt what point \n,x y\n^\nh do the graphs of the equations in \nthe given system intersect?"
+    },
+    {
+      "question_id": "test11_math_m1_q13",
+      "reason": "isolated_operators (2 lines); single_char_lines (5 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "numeric_response",
+      "question": "x\ny\n8\n11\n170\n+\n=\n\nThe equation gives the possible combinations of the\n\nnumber of 2009 premium grade Log Cabin Pennies,\n\nx, and the number of 1996 select grade Lincoln \nPennies, y, in a collection that is worth a total of\n\n$170. If there are 6 1996 select grade Lincoln \nPennies in the collection, how many 2009 premium \ngrade Log Cabin Pennies are in the collection?"
+    },
+    {
+      "question_id": "test11_math_m1_q18",
+      "reason": "isolated_operators (4 lines); single_char_lines (8 lines); broken_choices (keys=['B', 'D'])",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "broken_choices"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "x\ny\n53\n+\n=\nx\ny\n11\n18\n730\n+\n=\n\nThe given equations represent the possible numbers of beach chairs, x,\n\nand umbrellas, y, rented at a park last month and the total spent, in \ndollars, to rent those beach chairs and umbrellas. Which of the \nfollowing graphs represents this situation?"
+    },
+    {
+      "question_id": "test11_math_m1_q19",
+      "reason": "broken_choices (duplicate choices)",
+      "reasons": [
+        "broken_choices"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "trigonometry",
+      "question_type": "multiple_choice",
+      "question": "In triangle QRS shown, QR\nRS\n<\n. Which expression \nrepresents the length of QS ?"
+    },
+    {
+      "question_id": "test11_math_m1_q20",
+      "reason": "isolated_operators (12 lines); single_char_lines (28 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "circles",
+      "question_type": "numeric_response",
+      "question": "Circle A in the xy-plane has the equation\n\nx\ny\n5\n5\n25\n2\n2\n+\n+\n-\n=\n^\n^\nh\nh\n. Circle B has the same\n\ncenter as circle A. The radius of circle B is two times\n\nthe radius of circle A. The equation defining circle B\n\nin the xy-plane is x\ny\nk\n5\n5\n2\n2\n+\n+\n-\n=\n^\n^\nh\nh\n, where k\n\nis a constant. What is the value of k?"
+    },
+    {
+      "question_id": "test11_math_m1_q21",
+      "reason": "isolated_operators (2 lines); single_char_lines (11 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "numeric_response",
+      "question": "x\nx\n7\n5\n0\n2 +\n+\n=\n\nOne solution to the given equation can be written as\n\nx\nk\n2\n7\n= - +\n, where k is a constant. What is the\n\nvalue of k?"
+    },
+    {
+      "question_id": "test11_math_m1_q23",
+      "reason": "isolated_operators (2 lines); single_char_lines (15 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "y\n\n10\n\n8\n\n6\n\n4\n\n2\n\nx\n\nO\n\n‒1\n1\n2\n3\n4\n5\n\n‒2\n\n‒4\n\nThe graph of y\nf x\n4\n=\n+\n^ h\n is shown. Which \nequation defines function f ?"
+    },
+    {
+      "question_id": "test11_math_m1_q24",
+      "reason": "isolated_operators (2 lines); single_char_lines (4 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": "Two lines intersect at exactly one point, forming two\n\nacute angles and two obtuse angles. The measure of \none of these angles is \n°\nx\n9\n140\n-\n^\nh . Which of the \nfollowing could NOT be the sum of the measures of \nany two of these angles?"
+    },
+    {
+      "question_id": "test11_math_m1_q25",
+      "reason": "isolated_operators (6 lines); single_char_lines (17 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "x\ny\n2\n9\n7\n+\n=\n\nThe given equation is one equation in a system of\n\ntwo linear equations. If the system of equations has \nat least one solution, which of the following \nequations could be the other equation in the system?\n\nI.\t\n.\n.\nx\ny\n3\n13 5\n10 5\n+\n=\n\nII.\t\n.\n.\nx\ny\n3\n13 5\n10 5\n-\n="
+    },
+    {
+      "question_id": "test11_math_m1_q27",
+      "reason": "isolated_operators (6 lines); single_char_lines (12 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "numeric_response",
+      "question": "For a particular car, the linear function f\n\ngives the predicted power, in brake\n\nhorsepower bhp\n^\nh, for engine speeds between\n\n1,000 revolutions per minute (rpm) and 6,000 rpm.\n\nAccording to this function, the car’s predicted power\n\nis 433 bhp at an engine speed of 3,331 rpm and\n\n600 bhp at an engine speed of 4,500 rpm. The\n\nequation f x\nx\na\n7\n1\n433\n=\n-\n+\n^\n^\nh\nh\n defines f , where\n\nx is the engine speed, in rpm, and a is a constant.\n\nWhat is the value of a?"
+    },
+    {
+      "question_id": "test11_math_m2_q1",
+      "reason": "isolated_operators (2 lines); single_char_lines (7 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "Which expression is equivalent to x\nx\ny\n6\n5\n4\n+\n+\n?"
+    },
+    {
+      "question_id": "test11_math_m2_q4",
+      "reason": "isolated_operators (4 lines); single_char_lines (8 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "systems",
+      "question_type": "multiple_choice",
+      "question": "x\n10\n110\n=\nx\ny\n6\n63\n-\n=\n\nThe solution to the given system of equations is\n\n,x y\n^\nh. What is the value of y?"
+    },
+    {
+      "question_id": "test11_math_m2_q5",
+      "reason": "isolated_operators (5 lines); single_char_lines (8 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "The function f is defined by f x\nx\n9 2\n3\n=\n+\n^\n^\nh\nh. For \nwhat value of x does f x\n63\n=\n^ h\n?"
+    },
+    {
+      "question_id": "test11_math_m2_q7",
+      "reason": "single_char_lines (4 lines)",
+      "reasons": [
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "numeric_response",
+      "question": ",\n( )\ny\na\n3 600\nx\n=\n\nThe given equation, where a is a positive constant, \ngives the predicted number of bacteria, y, in a \ngrowth medium x hours after the number of \nbacteria was initially measured. According to the \nequation, what was the predicted number of bacteria \ninitially measured in the growth medium?"
+    },
+    {
+      "question_id": "test11_math_m2_q10",
+      "reason": "excessive_line_breaks (50 newlines); single_char_lines (5 lines)",
+      "reasons": [
+        "excessive_line_breaks",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "y\n\n60\n\n60\n\n55\n\n55\n\n50\n\n50\n\n45\n\n45\n\n40\n\n40\n\n35\n\n35\n\n30\n\n25\n\n20\n\n15\n\n10\n\n5\n\nx\n\nO\n\n‒15\n‒10\n‒5\n5\n10\n15\n\nThe shaded region shown in the graph represents all \nthe solutions to which inequality?"
+    },
+    {
+      "question_id": "test11_math_m2_q12",
+      "reason": "isolated_operators (2 lines); single_char_lines (5 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": "Line k is defined by y\nx\n6\n4\n=\n+ . Line j is parallel to \nline k in the xy-plane and passes through the point\n\n,0 5\n^\nh. Which equation defines line j?"
+    },
+    {
+      "question_id": "test11_math_m2_q14",
+      "reason": "isolated_operators (6 lines); single_char_lines (13 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "circles",
+      "question_type": "numeric_response",
+      "question": "What is the radius of the circle in the xy-plane\n\ndefined by x\ny\n2\n5\n169\n2\n2\n+\n+\n+\n=\n^\n^\nh\nh\n?"
+    },
+    {
+      "question_id": "test11_math_m2_q15",
+      "reason": "excessive_line_breaks (50 newlines); single_char_lines (6 lines)",
+      "reasons": [
+        "excessive_line_breaks",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "data_interpretation",
+      "question_type": "multiple_choice",
+      "question": "y\n\n350\n\n300\n\n250\n\n200\n\n150\n\n100\n\n50\n\nx\n\nO\n\n50\n100\n150\n200\n250\n\n‒50\n\n‒100\n\n‒150\n\n‒200\n\nThe graph shows the estimated boiling point y, in \ndegrees Celsius, of a normal paraffin with a \nmolecular weight of x grams per mole, where\n\nx\n1\n280\n#\n#\n. Which statement is the best \ninterpretation of the point \n.\n,\n.\n149 02 186 05\n^\nh?"
+    },
+    {
+      "question_id": "test11_math_m2_q16",
+      "reason": "isolated_operators (4 lines); single_char_lines (5 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "For the polynomial function f , the graph of\n\ny\nf x\n= ^ h in the xy-plane passes through the points\n\n,5 0\n-\n^\nh, \n,1 0\n^\nh, and \n,4 0\n^\nh. Which of the following \nmust be a factor of f x\n^ h?"
+    },
+    {
+      "question_id": "test11_math_m2_q17",
+      "reason": "isolated_operators (2 lines); single_char_lines (8 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "functions",
+      "question_type": "multiple_choice",
+      "question": "x\ng x\n^ h\n1\n32\n2\n28\n3\n24\n4\n20\n\nFor the linear function g, the table shows four values \nof x and their corresponding values of g x\n^ h. The \nfunction can be written as g x\nmx\nb\n=\n+\n^ h\n, where m \nand b are constants. What is the value of b?"
+    },
+    {
+      "question_id": "test11_math_m2_q18",
+      "reason": "isolated_operators (2 lines); single_char_lines (6 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "x\n24\n30\n32\nf x\n^ h\n8\n-\n8\n-\n8\n\nFor the quadratic function f , the table shows three \nvalues of x and their corresponding values of f x\n^ h. \nWhich equation defines f ?"
+    },
+    {
+      "question_id": "test11_math_m2_q20",
+      "reason": "isolated_operators (2 lines); single_char_lines (11 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "numeric_response",
+      "question": "p2\n3\n7\n9\nt\n=\n\nIn the given equation, p\n1\n>\n and t\n1\n> . If\n\nt\np n\n3\n1\n=\n- , where n is a constant, what is the value\n\nof n?"
+    },
+    {
+      "question_id": "test11_math_m2_q22",
+      "reason": "isolated_operators (2 lines); single_char_lines (6 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "quadratics",
+      "question_type": "multiple_choice",
+      "question": "f x\nx\nx\n6\n60\n126\n2\n= -\n+\n-\n^ h\n\nThe function f is defined by the given equation. \nWhich of the following equivalent forms of the \nequation displays the maximum value of the \nfunction as a constant or coefficient?"
+    },
+    {
+      "question_id": "test11_math_m2_q23",
+      "reason": "isolated_operators (4 lines); single_char_lines (4 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "geometry",
+      "question_type": "multiple_choice",
+      "question": "In the figure shown, WZ and XY intersect at \npoint Q, YQ\n21\n=\n, WQ\n70\n=\n, WX\n60\n=\n, and \nXQ\n120\n=\n. What is the length of YZ ?"
+    },
+    {
+      "question_id": "test11_math_m2_q24",
+      "reason": "isolated_operators (4 lines); single_char_lines (10 lines); malformed_equation (operator run)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines",
+        "malformed_equation"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "multiple_choice",
+      "question": "x\nx\n52\n64\n81\n0\n3\n4\n+\n-\n=\n^\n^h\nh\n\nHow many distinct real solutions does the given \nequation have?"
+    },
+    {
+      "question_id": "test11_math_m2_q27",
+      "reason": "isolated_operators (2 lines); single_char_lines (4 lines)",
+      "reasons": [
+        "isolated_operators",
+        "single_char_lines"
+      ],
+      "test": 11,
+      "section": "math",
+      "topic": "linear_equations",
+      "question_type": "numeric_response",
+      "question": "An area of \n.\n46 00 square nautical miles is equivalent \nto k square kilometers. To the nearest tenth, what is \nthe value of k? \n.\n1\n1 852\nnautical mile\nkilometers\n=\n^\nh\n\n®"
+    }
+  ]
+}

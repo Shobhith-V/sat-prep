@@ -113,15 +113,21 @@ _CHOICE_START = re.compile(r"^([ABCD])\)\s*(.*)$", re.DOTALL)
 _CHOICE_ONLY = re.compile(r"^[ABCD]\)$")
 
 
-# Matches inline runs of choices within a single block, e.g.:
-# "B)\t dislike | C)\t interrupt | D)\t overlook"
-_INLINE_CHOICE_SEP = re.compile(r"\s*\|\s*(?=[ABCD]\))")
+# Matches inline runs of choices merged into one block, separated by either a
+# pipe ("B) x | C) y | D) z") or a newline ("B) x\nC) y\nD) z" — the test-11
+# layout). The lookahead means a newline INSIDE a choice (wrapped text not
+# followed by a choice marker) is left intact.
+_INLINE_CHOICE_SEP = re.compile(r"\s*[|\n]\s*(?=[ABCD]\))")
+
+# Bullet glyphs used as choice markers in some tests (e.g. test 8) instead of "A)".
+_BULLET = re.compile(r"^[•▪●◦‣·]\s*(.+)$", re.DOTALL)
+_PROMPT = re.compile(r"which choice", re.IGNORECASE)
 
 
 def _split_inline_choices(block_text: str) -> List[str]:
     """
-    If a single block contains multiple choices merged with " | " separators,
-    split them into individual blocks.  Otherwise return the block unchanged.
+    If a single block contains multiple choices merged with "|" or newline
+    separators, split them into individual blocks. Otherwise return unchanged.
     """
     parts = _INLINE_CHOICE_SEP.split(block_text)
     return parts if len(parts) > 1 else [block_text]
@@ -144,9 +150,11 @@ def parse_question_block(blocks: List[str]) -> Tuple[str, Optional[Dict[str, str
 
     choices: Dict[str, str] = {}
     question_parts: List[str] = []
+    bullet_choices: List[str] = []   # bullet-marker choices seen after the prompt
     current_letter: Optional[str] = None
     current_choice_parts: List[str] = []
     in_choices = False
+    seen_prompt = False
 
     def flush_choice() -> None:
         if current_letter and current_choice_parts:
@@ -157,7 +165,11 @@ def parse_question_block(blocks: List[str]) -> Tuple[str, Optional[Dict[str, str
         if not block:
             continue
 
+        if _PROMPT.search(block):
+            seen_prompt = True
+
         m = _CHOICE_START.match(block)
+        bullet = _BULLET.match(block)
         if m:
             # Save any open choice
             flush_choice()
@@ -168,6 +180,10 @@ def parse_question_block(blocks: List[str]) -> Tuple[str, Optional[Dict[str, str
         elif in_choices and current_letter:
             # Continuation line of the current choice
             current_choice_parts.append(block)
+        elif seen_prompt and bullet and not in_choices:
+            # Bullet-style choice (after the prompt) — collected as a fallback;
+            # only used if no lettered choices are found.
+            bullet_choices.append(bullet.group(1).strip())
         else:
             # Part of the question passage or stem
             question_parts.append(block)
@@ -178,12 +194,15 @@ def parse_question_block(blocks: List[str]) -> Tuple[str, Optional[Dict[str, str
 
     if len(choices) == 4 and all(k in choices for k in "ABCD"):
         return question_text, choices, "multiple_choice"
-    elif choices:
-        # Partial choices — still call it MC (may have parsing issues)
+    if choices:
+        # Partial lettered choices — still call it MC (may have parsing issues)
         logger.warning("Only %d choices parsed; expected 4.", len(choices))
         return question_text, choices, "multiple_choice"
-    else:
-        return question_text, None, "numeric_response"
+    if len(bullet_choices) == 4:
+        # Fallback: 4 bullet-marker choices map to A–D in source order.
+        mapped = {k: v for k, v in zip("ABCD", bullet_choices)}
+        return question_text, mapped, "multiple_choice"
+    return question_text, None, "numeric_response"
 
 
 # ── Question-number detection ─────────────────────────────────────────────────
