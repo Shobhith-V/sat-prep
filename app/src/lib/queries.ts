@@ -55,17 +55,31 @@ export async function fetchSessions(studentId: string): Promise<SessionRow[]> {
   return (data ?? []) as SessionRow[];
 }
 
-/**
- * Flagged attempts, for a future "Flagged Questions" page.
- * Designed now so that page can split flagged-correct vs flagged-incorrect.
- */
-export async function fetchFlaggedAttempts(studentId: string): Promise<AttemptRow[]> {
+/** Just the question_ids the student has attempted (for unseen-count + adaptive exclusion). */
+export async function fetchAttemptedQuestionIds(studentId: string): Promise<string[]> {
   const { data, error } = await supabase
     .from('question_attempts')
-    .select('question_id,topic,subtopic,section,difficulty,is_correct,flagged,attempted_at')
+    .select('question_id')
+    .eq('student_id', studentId);
+  if (error) throw error;
+  return (data ?? []).map((r) => (r as { question_id: string }).question_id);
+}
+
+/** Flagged attempt row — includes the student's answer for the review page. */
+export type FlaggedAttemptRow = AttemptRow & { student_answer: string };
+
+/**
+ * Flagged attempts, most recent first, for the Flagged Questions page.
+ * Includes student_answer so the page can render the full review and split
+ * flagged-correct vs flagged-incorrect.
+ */
+export async function fetchFlaggedAttempts(studentId: string): Promise<FlaggedAttemptRow[]> {
+  const { data, error } = await supabase
+    .from('question_attempts')
+    .select('question_id,topic,subtopic,section,difficulty,is_correct,flagged,student_answer,attempted_at')
     .eq('student_id', studentId)
     .eq('flagged', true)
     .order('attempted_at', { ascending: false });
   if (error) throw error;
-  return (data ?? []) as AttemptRow[];
+  return (data ?? []) as FlaggedAttemptRow[];
 }

@@ -20,6 +20,7 @@ export function Navbar() {
         <nav className="navbar-links">
           <Link to="/dashboard">Dashboard</Link>
           <Link to="/practice/setup">Practice</Link>
+          <Link to="/flagged">Flagged</Link>
           {profile && <span className="navbar-user">{profile.name}</span>}
           <button className="btn btn-outline navbar-signout" onClick={handleSignOut}>
             Sign out

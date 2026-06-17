@@ -1,18 +1,24 @@
 import type { ReactNode } from 'react';
+import { Link } from 'react-router-dom';
 import type { DashboardMetrics } from '../../lib/stats';
 
 function MetricCard({
-  label, value, unit, sub,
-}: { label: string; value: ReactNode; unit?: string; sub?: string }) {
-  return (
-    <div className="dash-metric">
+  label, value, unit, sub, to,
+}: { label: string; value: ReactNode; unit?: string; sub?: string; to?: string }) {
+  const inner = (
+    <>
       <div className="dash-metric-label">{label}</div>
       <div className="dash-metric-value">
         {value}
         {unit && <span className="unit">{unit}</span>}
       </div>
       {sub && <div className="dash-metric-sub">{sub}</div>}
-    </div>
+    </>
+  );
+  return to ? (
+    <Link className="dash-metric dash-metric-link" to={to}>{inner}</Link>
+  ) : (
+    <div className="dash-metric">{inner}</div>
   );
 }
 
@@ -52,7 +58,12 @@ export function MetricsGrid({ metrics }: { metrics: DashboardMetrics }) {
           value={metrics.streak}
           sub={metrics.streak === 1 ? 'day' : 'days'}
         />
-        <MetricCard label="Flagged" value={metrics.flaggedCount} sub="to review" />
+        <MetricCard
+          label="Flagged"
+          value={metrics.flaggedCount}
+          sub="to review"
+          to={metrics.flaggedCount > 0 ? '/flagged' : undefined}
+        />
       </div>
     </section>
   );

@@ -1,12 +1,14 @@
 # SAT Prep Pipeline — Handoff Document
 
 **Date:** 2026-06-17  
-**Phases completed:** 1 – 9 (ALL) — Analysis → Questions → Answers → Explanations →
-Images → Merge → Topic → Difficulty → Generalization & Validation  
-**Status:** ✅ Pipeline complete. 945/960 questions (98.4%) fully extracted,
-answered, explained, classified (topic + subtopic + difficulty), and validated.
-Answer⇄explanation cross-validation: 837/837 (100%). 47 unit tests passing.
-See `README.md` for usage and `scripts/validate.py` for the metrics report.
+**Extraction pipeline:** ✅ Phases 1–9 complete. 945/960 questions (98.4%)
+extracted, answered, explained, classified (topic + subtopic + difficulty),
+validated. Answer⇄explanation cross-validation 837/837. 47 unit tests passing.  
+**Web application (`app/`):** ✅ Feature-complete — Auth, Dashboard, Practice
+Setup (Adaptive / Random / Topic Drill), Practice Session (flagging), Results
+(+ persistence), Flagged Questions review. Deployment workflow, README, and
+env docs in place. **Pre-deploy step required: commit the working tree (see
+Known Issues).** Full web-app status, QA, and roadmap at the bottom of this file.
 
 ---
 
@@ -379,3 +381,75 @@ Import command:
 const data = JSON.parse(fs.readFileSync('output/test4.json'))
 const { error } = await supabase.from('questions').upsert(data)
 ```
+
+---
+
+# WEB APPLICATION (app/)
+
+## Current status
+
+Feature-complete React + Vite + TypeScript SPA in `app/`, backed by Supabase
+(Auth + Postgres), deploying to GitHub Pages. Builds clean (`npm run build`),
+dev server verified. All seven routes implemented and wired.
+
+## Completed phases (frontend)
+
+| Phase | Scope | Status |
+|---|---|---|
+| 1 | Scaffold, routing (HashRouter), theme, Supabase migration | ✅ |
+| 2 | Authentication (signup/login/logout, protected routes, profile trigger) | ✅ |
+| 3 | Dashboard (metrics, competency skill map, charts, weak/strong, flagged count) | ✅ |
+| 4 | Practice Setup (3 modes, filters, availability, adaptive preview) | ✅ |
+| 5 | Adaptive engine + Practice Session (MC/numeric, assets, flag, timer) | ✅ |
+| 6 | Results (band, review, filters, atomic persistence via RPC) | ✅ |
+| 7 | Flagged Questions review page | ✅ |
+| 10 | Deployment workflow, README, env docs, QA + perf audit, handoff | ✅ |
+
+## Architecture summary
+
+- **State**: React Context only — `AuthContext` (session) and `SessionContext`
+  (live practice run, in-memory, never localStorage). No Redux.
+- **Logic**: all aggregation/selection/scoring in `src/lib/*` as pure functions
+  (`stats`, `questionFilters`, `adaptive`, `scoring`, `results`); components render.
+- **Data**: 945 questions code-split per test (dynamic import), loaded only in
+  the practice flow; 120 page images in `public/assets/`.
+- **Persistence**: one atomic `record_session` RPC writes session + attempts +
+  competency; accuracy recomputed server-side.
+
+## Known issues / technical debt
+
+1. **Working tree not committed** *(pre-deploy blocker)* — the git index is
+   behind: `app/src/pages/Placeholder.tsx` is still tracked (deleted locally) and
+   the Phase 4–7 sources are uncommitted. Commit the working tree before relying
+   on the deploy workflow, or it will build stale code.
+2. **Supabase schema not yet verified against the live project** — `0001_init.sql`
+   must be run in the SQL editor; signup trigger + RLS should be smoke-tested
+   end-to-end (create account → confirm profile row → run a session → confirm
+   attempts/competency rows are scoped to the user).
+3. **Main bundle ~225 KB gzip** — dominated by Recharts (dashboard). Acceptable
+   for MVP; see performance notes for a low-effort split.
+4. **Full-page source images** — image questions show the whole scanned page, not
+   a cropped figure (intentional MVP choice; cropping is on the roadmap).
+5. **No automated frontend tests** — pure libs (`adaptive`, `scoring`, `stats`,
+   `results`, `questionFilters`) are structured for unit testing but no Vitest
+   suite exists yet.
+6. **Numeric answer matching** is tolerant (fractions/decimals/multi-form) but not
+   exhaustive (e.g. unit suffixes a student might type are not stripped).
+
+## Future roadmap
+
+### Future Improvements
+- **Cropped image extraction** — replace full-page scans with cropped figures
+  (pipeline enhancement; the schema already supports per-question assets).
+- **Spaced repetition** — resurface missed/flagged questions on an SRS schedule.
+- **Timed full-length tests** — module-timed, full-test simulation with section
+  breaks mirroring the real digital SAT.
+- **Leaderboards** — opt-in cohort comparison (requires aggregate views + RLS care).
+- **Question bookmarking** — separate from flagging, for "save for later".
+- **Admin dashboard** — content review, dataset versioning, question quality flags.
+- **Analytics exports** — CSV/JSON export of a student's attempts and competency.
+- **Score prediction** — map raw performance to projected 400–1600 using the
+  pipeline's conversion tables.
+- **Vitest suite** — cover the pure libs; deterministic adaptive selection via the
+  injectable RNG.
+- **Bundle split** — lazy-load the dashboard (Recharts) route to shrink initial JS.

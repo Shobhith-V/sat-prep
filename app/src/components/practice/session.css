@@ -1,0 +1,211 @@
+/* ============================================================================
+   Practice Session — focused, one-question-at-a-time reading surface.
+   Namespaced .sess- / .q-.
+   ============================================================================ */
+
+.sess {
+  max-width: var(--maxw-content);
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4) var(--space-12);
+}
+
+/* ── Top bar: progress, counter, timer ─────────────────────────────────── */
+.sess-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-2);
+}
+.sess-counter {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-text);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.sess-timer {
+  margin-left: auto;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+.sess-progress {
+  flex: 1;
+  height: 8px;
+  background: var(--color-surface-alt);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.sess-progress-fill {
+  height: 100%;
+  background: var(--color-primary);
+  border-radius: 999px;
+  transition: width 0.25s ease;
+}
+
+/* ── Question card ─────────────────────────────────────────────────────── */
+.sess-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-8);
+  margin-top: var(--space-4);
+}
+.sess-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+.sess-tags {
+  display: flex;
+  gap: var(--space-2);
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sess-tag {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-transform: capitalize;
+}
+.sess-tag-sep { color: var(--color-text-faint); }
+
+.sess-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  border-radius: var(--radius);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+.sess-flag.is-flagged {
+  border-color: var(--color-warning);
+  background: #fffbeb;
+  color: #854d0e;
+}
+
+/* ── Question body ─────────────────────────────────────────────────────── */
+.q-text {
+  white-space: pre-line;
+  font-size: var(--text-lg);
+  line-height: 1.7;
+  color: var(--color-text);
+}
+.q-blank {
+  color: var(--color-primary);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.q-asset {
+  margin-top: var(--space-4);
+}
+.q-asset-toggle {
+  border: 1px dashed var(--color-border);
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.q-asset-images {
+  margin-top: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.q-asset-images img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ── Choices ───────────────────────────────────────────────────────────── */
+.q-choices {
+  margin-top: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.q-choice {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  text-align: left;
+  border: 1.5px solid var(--color-border);
+  background: var(--color-bg);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+.q-choice:hover {
+  border-color: #cbd5e1;
+}
+.q-choice.is-selected {
+  border-color: var(--color-primary);
+  background: #f5f8fc;
+}
+.q-choice:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+.q-choice-key {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--color-surface-alt);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  color: var(--color-text);
+}
+.q-choice.is-selected .q-choice-key {
+  background: var(--color-primary);
+  color: #fff;
+}
+.q-choice-text {
+  white-space: pre-line;
+  line-height: 1.5;
+  padding-top: 2px;
+}
+
+/* ── Numeric ───────────────────────────────────────────────────────────── */
+.q-numeric {
+  margin-top: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-width: 280px;
+}
+
+/* ── Footer / Next ─────────────────────────────────────────────────────── */
+.sess-footer {
+  margin-top: var(--space-6);
+  display: flex;
+  justify-content: flex-end;
+}
+.sess-next {
+  min-width: 160px;
+  font-size: var(--text-lg);
+  padding: var(--space-3) var(--space-8);
+}
+
+@media (max-width: 560px) {
+  .sess-card { padding: var(--space-6); }
+  .q-text { font-size: var(--text-base); }
+  .sess-next { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sess-progress-fill { transition: none; }
+}
