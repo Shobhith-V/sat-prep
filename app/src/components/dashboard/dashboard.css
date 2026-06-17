@@ -1,0 +1,323 @@
+/* ============================================================================
+   Dashboard — layout + the "skill map" visual system.
+   Namespaced with .dash- to avoid specificity clashes with global styles.
+   ============================================================================ */
+
+.dash {
+  max-width: var(--maxw-app);
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-4) var(--space-12);
+}
+.dash > * + * {
+  margin-top: var(--space-8);
+}
+
+/* ── Section eyebrow + heading ─────────────────────────────────────────── */
+.dash-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+.dash-eyebrow {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+}
+.dash-section-title {
+  font-size: var(--text-lg);
+}
+
+/* ── Hero ──────────────────────────────────────────────────────────────── */
+.dash-hero {
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  box-shadow: var(--shadow);
+}
+.dash-hero-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+}
+.dash-hello {
+  font-size: var(--text-2xl);
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+.dash-hero-sub {
+  color: #cbd5e1;
+  font-size: var(--text-sm);
+  margin-top: var(--space-1);
+}
+.dash-cta {
+  background: #fff;
+  color: var(--color-primary);
+  font-weight: 700;
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius);
+  white-space: nowrap;
+}
+.dash-cta:hover {
+  background: #eef2f7;
+  text-decoration: none;
+}
+
+/* ── Mastery strip (signature) ─────────────────────────────────────────── */
+.dash-mastery {
+  margin-top: var(--space-6);
+}
+.dash-mastery-bar {
+  display: flex;
+  height: 14px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.14);
+}
+.dash-mastery-seg {
+  height: 100%;
+}
+.dash-mastery-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-top: var(--space-3);
+}
+.dash-legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+  color: #cbd5e1;
+  font-variant-numeric: tabular-nums;
+}
+.dash-legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+/* ── Metrics grid ──────────────────────────────────────────────────────── */
+.dash-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--space-3);
+}
+.dash-metric {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+}
+.dash-metric-label {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.dash-metric-value {
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  margin-top: var(--space-1);
+  color: var(--color-primary);
+}
+.dash-metric-value .unit {
+  font-size: var(--text-lg);
+  color: var(--color-text-faint);
+  font-weight: 700;
+  margin-left: 1px;
+}
+.dash-metric-sub {
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+  margin-top: 2px;
+}
+
+/* ── Charts ────────────────────────────────────────────────────────────── */
+.dash-charts {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: var(--space-4);
+}
+.dash-chart-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+}
+.dash-chart-title {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-4);
+}
+.dash-chart-body {
+  flex: 1;
+  min-height: 180px;
+}
+
+/* ── Weakness analysis ─────────────────────────────────────────────────── */
+.dash-weakness {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+.dash-list-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+}
+.dash-list {
+  list-style: none;
+  margin-top: var(--space-3);
+}
+.dash-list-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) 0;
+  border-top: 1px solid var(--color-border);
+}
+.dash-list-row:first-child {
+  border-top: none;
+}
+.dash-list-row button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  background: none;
+  border: none;
+  padding: var(--space-1) 0;
+  text-align: left;
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+.dash-list-row button:hover .dash-list-name {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+.dash-list-name { flex: 1; }
+.dash-list-meta {
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+  font-variant-numeric: tabular-nums;
+}
+.dash-list-acc {
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+  min-width: 44px;
+  text-align: right;
+}
+
+/* ── Skill map (competency grid) ───────────────────────────────────────── */
+.dash-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-3);
+}
+.dash-comp {
+  position: relative;
+  text-align: left;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--band, var(--color-border));
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.dash-comp:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-1px);
+}
+.dash-comp:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+.dash-comp-topic {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.dash-comp-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: var(--space-2);
+}
+.dash-comp-acc {
+  font-size: var(--text-xl);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--band-text, var(--color-text-faint));
+}
+.dash-comp-meta {
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+  font-variant-numeric: tabular-nums;
+}
+.dash-comp-track {
+  height: 5px;
+  border-radius: 999px;
+  background: var(--color-surface-alt);
+  margin-top: var(--space-3);
+  overflow: hidden;
+}
+.dash-comp-fill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+/* ── Empty states ──────────────────────────────────────────────────────── */
+.dash-empty {
+  flex: 1;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  color: var(--color-text-muted);
+  gap: var(--space-2);
+  padding: var(--space-6) var(--space-4);
+}
+.dash-empty-icon {
+  font-size: 1.75rem;
+}
+.dash-empty-title {
+  font-weight: 700;
+  color: var(--color-text);
+  font-size: var(--text-sm);
+}
+.dash-empty-msg {
+  font-size: var(--text-sm);
+  max-width: 32ch;
+  margin: 0 auto;
+}
+
+/* ── Responsive ────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .dash-charts { grid-template-columns: 1fr; }
+  .dash-weakness { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .dash { padding: var(--space-6) var(--space-3) var(--space-12); }
+  .dash-hero { padding: var(--space-6); }
+  .dash-cta { width: 100%; text-align: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dash-comp { transition: none; }
+}

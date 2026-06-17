@@ -1,0 +1,12 @@
+# SAT Prep extraction pipeline — Python dependencies
+# Install with:  pip install -r requirements.txt
+# (or: conda activate mlops, which already has these)
+
+PyMuPDF==1.27.2.3      # PDF parsing + page rendering (imported as `fitz`)
+pandas>=2.0            # tabular reporting / analysis helpers
+
+# Optional — only needed for the LLM fallback in topic_classifier.py (--use-llm)
+# anthropic>=0.40
+
+# Testing
+pytest>=7.0
